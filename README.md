@@ -1,7 +1,7 @@
-# 👋 Hey, I'm Lewis Karl | CreepyLewis
+# 👋 Hey, I'm  CreepyLewis
 
 📍 **KAREN, Nairobi County**  
-🎯 *Currently under construction*  
+🎯 *Main character, low budget*  
 
 ## 🌐 Connect with me:
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/CreepyLewis)
@@ -103,45 +103,9 @@
 
 ---
 
-## 📊 Profile Overview
-- [📁 Repositories](https://github.com/CreepyLewis?tab=repositories)
-- [📋 Projects](https://github.com/CreepyLewis?tab=projects)
-- [📦 Packages](https://github.com/CreepyLewis?tab=packages)
-- [⭐ Stars](https://github.com/CreepyLewis?tab=stars)
 
----
 
-### 🔥 Featured Projects
-
-#### 🤖 **Data Science & AI**
-[**CompVis-stable-diffusion**](https://github.com/CompVis/stable-diffusion)  
-AI image generation and manipulation using stable diffusion models.
-
-#### 🕸️ **Web Scraping**
-[**scrapy-scrapy**](https://github.com/scrapy/scrapy)  
-Fast, high-level web crawling & scraping framework for Python.
-
-#### 💻 **Developer Tools**
-[**code-copilot-cli**](https://github.com/CreepyLewis/code-copilot-cli)  
-An intelligent CLI tool that analyzes your codebase and suggests improvements, finds bugs, and generates documentation using AI.
-
-#### 🦴 **Computer Vision**
-[**living-to-skeleton**](https://github.com/CreepyLewis/living-to-skeleton)  
-Digital skeleton visual effects from living subjects using AI & computer vision techniques.
-
----
-
-### 📌 Pinned Repositories
-1. **[CompVis-stable-diffusion](https://github.com/CompVis/stable-diffusion)**  
-   **Public** – AI image generation
-
-2. **[CreepyLewis](https://github.com/CreepyLewis/CreepyLewis)**  
-   **Public** – Config files for my GitHub profile
-
-3. **[living-to-skeleton](https://github.com/CreepyLewis/living-to-skeleton)**  
-   **Public** – Digital skeleton visual effects from living subjects using AI & computer vision
-
----
+ 
 
 ## 📱 Social Media Stats
 **Spotify:** Creepylewis  
@@ -150,8 +114,6 @@ Digital skeleton visual effects from living subjects using AI & computer vision 
 **YouTube:** @LEWISKITHOME-I9y  
 **Facebook:** CreepyLewis  
 **LinkedIn:** lewis-kithome
-
----
 
 ## 📈 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=dark)
