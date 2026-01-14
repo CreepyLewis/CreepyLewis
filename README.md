@@ -1,8 +1,7 @@
 # 👋 Hey, I'm Lewis Karl | CreepyLewis
 
-📍 **Nairobi, Nairobi County**  
+📍 **KAREN, Nairobi County**  
 🎯 *Currently under construction*  
-📝 *Personal blog: Chelsea blood ❤️*
 
 ## 🌐 Connect with me:
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/CreepyLewis)
