@@ -1,31 +1,135 @@
-# 👋 Hey, I'm CreepyLewis
+# 👋 Hey, I'm Lewis Karl | CreepyLewis
+
+📍 **Nairobi, Nairobi County**  
+🎯 *Currently under construction*  
+📝 *Personal blog: Chelsea blood ❤️*
 
 ## 🌐 Connect with me:
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/CreepyLewis)
+[![Spotify](https://img.shields.io/badge/Spotify-1DB954?logo=spotify&logoColor=white)](https://open.spotify.com/user/creepylewis)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://instagram.com/lewis.karl7)
 [![TikTok](https://img.shields.io/badge/TikTok-000000?logo=tiktok&logoColor=white)](https://tiktok.com/@lewis.karl7)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://facebook.com/profile.php?id=61574097803054)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/CreepyLewis/)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white)](https://youtube.com/@LEWISKITHOME-I9y)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/lewis-kithome)
 
 ---
 
-## 🛠️ Tech Stack:
-### **Languages:**
-**PYTHON** • **C** • **HTML5** • **KOTLIN** • **JAVASCRIPT** • **JAVA** • **SCALA** • **R** • **PHP** • **GRAPHQL** • **GO** • **MARKDOWN**
+# Tech Stack:
 
-### **Cloud & DevOps:**
-**AWS** • **AZURE** • **CLOUDFLARE** • **NETLIFY** • **ORACLE** • **APACHE** • **APACHE AIRFLOW** • **APACHE KAFKA** • **APACHE TOMCAT** • **DOCKER** • **GIT**
+- PYTHON  
+- C  
+- HTML5  
+- KOTLIN  
+- JAVASCRIPT  
+- JAVA  
+- SCALA  
+- R  
+- PHP  
 
-### **Frameworks & Libraries:**
-**ANACONDA** • **ANGULAR.JS** • **ANGULAR** • **BOOTSTRAP** • **DJANGO** • **FLASK** • **FLUTTER** • **LARAVEL** • **NODE.JS** • **REACT**
+---
 
-### **Databases:**
-**AMAZON DYNAMODB** • **MARIADB** • **MYSQL** • **MONGODB** • **POSTGRES** • **SQLITE**
+- MARKDOWN  
+- GRAPHQL  
+- GO  
+- AWS  
+- AZURE  
+- CLOUDFLARE  
+- NETLIFY  
+- ORACLE  
 
-### **Data Science & ML:**
-**NUMPY** • **PANDAS** • **TENSORFLOW** • **SCIPY** • **MLFLOW** • **MATPLOTLIB** • **KERAS** • **SCIKIT-LEARN** • **PLOTLY** • **PYTORCH**
+---
 
-### **Tools:**
-**FIGMA** • **INSOMNIA**
+- ANACONDA  
+- ANGULAR.JS  
+- ANGULAR  
+- APACHE KAFKA  
+- BOOTSTRAP  
+- DJANGO  
+- FLASK  
+
+---
+
+- FLUTTER  
+- INSOMNIA  
+- LARAVEL  
+- NODE.JS  
+- REACT  
+- APACHE  
+- APACHE AIRFLOW  
+
+---
+
+- APACHE TOMCAT  
+- AMAZON DYNAMODB  
+- MARIADB  
+- MYSQL  
+- MONGODB  
+- POSTGRES  
+
+---
+
+- SQLITE  
+- FIGMA  
+- NUMPY  
+- PANDAS  
+- TENSORFLOW  
+- SCIPY  
+- MLFLOW  
+- MATPLOTLIB  
+
+---
+
+- KERAS  
+- SCIKIT-LEARN  
+- PLOTLY  
+- PYTORCH  
+- GIT
+
+---
+
+- TYPESCRIPT  
+- SWIFT  
+- C#  
+- CSS3  
+- GRAPHQL  
+- POWERSHELL  
+- VERCEL  
+
+---
+
+- AWS  
+- GOOGLE CLOUD  
+- ANGULAR  
+- .NET  
+- EXPRESS.JS  
+- ELECTRON  
+- NEXT  
+- NODE.JS  
+
+---
+
+- REDUX  
+- REACT  
+- VITE  
+- TAILWIND CSS  
+- SASS  
+- NGINX  
+- FIGMA  
+- FRAMER  
+
+---
+
+- MICROSOFT SQL SERVER  
+- MONGODB  
+- POSTGRES  
+- FIREBASE  
+- ADOBE AUDITION  
+- ADOBE PHOTOSHOP  
+
+---
+
+- NOTION
 
 ---
 
@@ -69,6 +173,16 @@ Digital skeleton visual effects from living subjects using AI & computer vision 
 
 ---
 
+## 📱 Social Media Stats
+**Spotify:** Creepylewis  
+**Instagram:** @lewis.karl7  
+**TikTok:** @lewis.karl7 (741 followers • 170 following)  
+**YouTube:** @LEWISKITHOME-I9y  
+**Facebook:** CreepyLewis  
+**LinkedIn:** lewis-kithome
+
+---
+
 ## 📈 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=dark)
 
@@ -79,4 +193,4 @@ Digital skeleton visual effects from living subjects using AI & computer vision 
 ## 👣 Visitor Count
 ![Visitor Count](https://komarev.com/ghpvc/?username=CreepyLewis&color=blueviolet)
 
-*Last updated: {{ CURRENT_DATE }}*
+*🚧 Profile currently under development • Last updated: {{ CURRENT_DATE }}*
