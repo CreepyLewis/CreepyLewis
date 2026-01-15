@@ -114,7 +114,13 @@
 **YouTube:** @LEWISKITHOME-I9y  
 **Facebook:** CreepyLewis  
 **LinkedIn:** lewis-kithome
+## Support My Work
 
+If you find this project helpful, consider supporting me:
+
+[!["Buy Me A Coffee"](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/yourusername)
+
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor_Me_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/CreepyLewis)
 ## 📈 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=dark)
 
