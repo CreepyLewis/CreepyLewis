@@ -108,13 +108,16 @@ If you find this project helpful, consider supporting me:
 [!["Buy Me A Coffee"](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/lewiskitho2)
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor_Me_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/CreepyLewis)
-## 📈 GitHub Analytics
+
+
+📊 GitHub Analytics
 
 <div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=dark&hide_border=true)
-![GitHub Streak](https://streak-stats.demolab.com/?user=CreepyLewis&theme=dark&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CreepyLewis&layout=compact&theme=dark&hide_border=true)
+
+![Stats](https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=radical&hide_border=true&include_all_commits=true)
+![Streak](https://streak-stats.demolab.com/?user=CreepyLewis&theme=radical&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=CreepyLewis&layout=compact&theme=radical&hide_border=true)
+
 
 
 ## 👣 Visitor Count
