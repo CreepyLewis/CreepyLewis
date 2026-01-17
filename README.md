@@ -101,20 +101,7 @@
 ![Insomnia](https://img.shields.io/badge/Insomnia-5849BE?logo=insomnia&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?logo=notion&logoColor=white)
 
----
 
-
-
- 
-
-## 📱 Social Media Stats
-**Spotify:** Creepylewis  
-**Instagram:** @lewis.karl7  
-**TikTok:** @lewis.karl7 (741 followers • 170 following)  
-**YouTube:** @LEWISKITHOME-I9y  
-**Facebook:** CreepyLewis  
-**LinkedIn:** lewis-kithome
-## Support My Work
 
 If you find this project helpful, consider supporting me:
 
@@ -131,4 +118,3 @@ If you find this project helpful, consider supporting me:
 ## 👣 Visitor Count
 ![Visitor Count](https://komarev.com/ghpvc/?username=CreepyLewis&color=blueviolet)
 
-*🚧 Profile currently under development • Last updated: {{ CURRENT_DATE }}*
