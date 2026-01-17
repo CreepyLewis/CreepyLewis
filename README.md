@@ -109,14 +109,21 @@ If you find this project helpful, consider supporting me:
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor_Me_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/CreepyLewis)
 
-## 📈 GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=github_dark" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=CreepyLewis&theme=github_dark" />
+  <img
+    src="https://streak-stats.demolab.com?
+user=CreepyLewis
+&theme=dark
+&hide_border=true
+&border_radius=12
+&background=0D1117
+&ring=FF8C00
+&fire=FF8C00
+&currStreakLabel=FF8C00
+"
+  />
 </p>
 
 
