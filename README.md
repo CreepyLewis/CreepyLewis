@@ -119,6 +119,8 @@ If you find this project helpful, consider supporting me:
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CreepyLewis&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
+
+
 <h1 align="center">👾 Lewis</h1>
 
 <p align="center">
@@ -132,20 +134,11 @@ If you find this project helpful, consider supporting me:
   <img src="stats/stats.svg" />
 </p>
 
----
-
 ### 🐍 Contribution Graph
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/CreepyLewis/CreepyLewis/blob/output/snake-dark.svg">
   <img src="https://github.com/CreepyLewis/CreepyLewis/blob/output/snake.svg">
 </picture>
-
----
-
-## 🐍 Contribution Graph
-![Snake](https://github.com/CreepyLewis/CreepyLewis/blob/output/github-contribution-grid-snake.svg)
-
-
 
 
 ## 👣 Visitor Count
