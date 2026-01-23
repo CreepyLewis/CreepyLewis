@@ -109,13 +109,12 @@ If you find this project helpful, consider supporting me:
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor_Me_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/CreepyLewis)
 
-## 🐍 Contribution Snake
+### Python
+![Python Progress](https://progress-bar.dev/59.1/?title=Python&width=300&color=3776AB)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/CreepyLewis/output/github-contribution-grid-snake-dark.svg" />
-</p>
-
-![Python Progress](https://progress-bar.dev/59.1/?title=Python&width=400&color=3776AB)
+### JavaScript
+![JavaScript Progress](https://progress-bar.dev/40.9/?title=JavaScript&width=300&color=F7DF1E)
+![Contribution Snake](https://raw.githubusercontent.com/CreepyLewis/CreepyLewis/output/github-contribution-grid-snake.svg)
 
 ## 👣 Visitor Count
 ![Visitor Count](https://komarev.com/ghpvc/?username=CreepyLewis&color=blueviolet)
