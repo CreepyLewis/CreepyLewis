@@ -109,22 +109,15 @@ If you find this project helpful, consider supporting me:
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor_Me_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/CreepyLewis)
 
-<h1 align="center">👋 Hey, I'm Lewis</h1>
-
 <p align="center">
 Computer Science | Python | Data | Math
 </p>
 
----
-
 ## 🔥 GitHub Stats
-
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=CreepyLewis&theme=tokyonight&hide_border=true" width="48%" />
 </div>
-
----
 
 ## 🧠 Most Used Languages
 <div align="center">
