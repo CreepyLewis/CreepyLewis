@@ -116,7 +116,7 @@ Computer Science | Python | Data | Math
 ## 🔥 GitHub Stats
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CreepyLewis&theme=tokyonight&hide_border=true" width="48%" />
+ 
 </div>
 
 ## 🧠 Most Used Languages
