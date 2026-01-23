@@ -115,7 +115,7 @@ If you find this project helpful, consider supporting me:
   <img src="https://raw.githubusercontent.com/CreepyLewis/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
-
+![Python Progress](https://progress-bar.dev/59.1/?title=Python&width=400&color=3776AB)
 
 ## 👣 Visitor Count
 ![Visitor Count](https://komarev.com/ghpvc/?username=CreepyLewis&color=blueviolet)
