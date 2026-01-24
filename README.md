@@ -128,18 +128,20 @@ If you find this project helpful, consider supporting me:
 </p>
 
 ---
-
-### 🧮 Custom GitHub Stats
+## 🧮 Custom GitHub Stats
 <p align="center">
-  <img src="stats/stats.svg" />
+  <img src="https://raw.githubusercontent.com/CreepyLewis/CreepyLewis/main/stats/stats.svg" />
 </p>
 
-### 🐍 Contribution Graph
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/CreepyLewis/CreepyLewis/blob/output/snake-dark.svg">
-  <img src="https://github.com/CreepyLewis/CreepyLewis/blob/output/snake.svg">
-</picture>
+---
 
+## 🐍 Contribution Graph
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/CreepyLewis/CreepyLewis/output/snake-dark.svg">
+  <img
+    src="https://raw.githubusercontent.com/CreepyLewis/CreepyLewis/output/snake.svg">
+</picture>
 
 ## 👣 Visitor Count
 ![Visitor Count](https://komarev.com/ghpvc/?username=CreepyLewis&color=blueviolet)
