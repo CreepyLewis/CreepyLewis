@@ -133,7 +133,6 @@ If you find this project helpful, consider supporting me:
   <img src="https://raw.githubusercontent.com/CreepyLewis/CreepyLewis/main/stats/stats.svg" />
 </p>
 
----
 
 ## 🐍 Contribution Graph
 <picture>
