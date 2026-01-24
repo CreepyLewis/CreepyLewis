@@ -1,30 +1,103 @@
-name: Update Custom Stats
+import os
+import requests
+from datetime import datetime
 
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+USERNAME = "CreepyLewis"
+TOKEN = os.environ.get("GH_TOKEN")
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+if not TOKEN:
+    raise Exception("GH_TOKEN not found")
 
-    steps:
-      - uses: actions/checkout@v4
+HEADERS = {
+    "Authorization": f"Bearer {TOKEN}",
+    "Content-Type": "application/json"
+}
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+QUERY = """
+query($login: String!) {
+  user(login: $login) {
+    contributionsCollection {
+      contributionCalendar {
+        weeks {
+          contributionDays {
+            contributionCount
+            date
+          }
+        }
+      }
+    }
+  }
+}
+"""
 
-      - name: Generate SVG stats
-        run: python scripts/generate_stats.py
+res = requests.post(
+    "https://api.github.com/graphql",
+    json={"query": QUERY, "variables": {"login": USERNAME}},
+    headers=HEADERS
+)
 
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add stats/stats.svg
-          git commit -m "update stats card" || exit 0
-          git push
+data = res.json()
+if "errors" in data:
+    raise Exception(data["errors"])
 
+weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+
+days = [d for w in weeks for d in w["contributionDays"]]
+
+total = sum(d["contributionCount"] for d in days)
+
+current_streak = 0
+for d in reversed(days):
+    if d["contributionCount"] > 0:
+        current_streak += 1
+    else:
+        break
+
+longest_streak = temp = 0
+for d in days:
+    if d["contributionCount"] > 0:
+        temp += 1
+        longest_streak = max(longest_streak, temp)
+    else:
+        temp = 0
+
+start_date = days[0]["date"]
+end_date = datetime.today().strftime("%b %d, %Y")
+
+svg = f"""
+<svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="180" rx="16" fill="#161b22"/>
+  <text x="30" y="35" fill="#ff9f1c" font-size="18" font-family="monospace">
+    GITHUB ACTIVITY
+  </text>
+
+  <text x="30" y="75" fill="#8b949e" font-size="13" font-family="monospace">
+    Total Contributions
+  </text>
+  <text x="30" y="110" fill="#c9d1d9" font-size="28" font-family="monospace">
+    {total}
+  </text>
+
+  <text x="300" y="75" fill="#8b949e" font-size="13" font-family="monospace">
+    Current Streak
+  </text>
+  <text x="300" y="110" fill="#c9d1d9" font-size="28" font-family="monospace">
+    {current_streak}
+  </text>
+
+  <text x="550" y="75" fill="#8b949e" font-size="13" font-family="monospace">
+    Longest Streak
+  </text>
+  <text x="550" y="110" fill="#c9d1d9" font-size="28" font-family="monospace">
+    {longest_streak}
+  </text>
+
+  <text x="30" y="150" fill="#8b949e" font-size="13" font-family="monospace">
+    {start_date} – {end_date}
+  </text>
+</svg>
+"""
+
+os.makedirs("stats", exist_ok=True)
+with open("stats/stats.svg", "w") as f:
+    f.write(svg)
