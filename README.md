@@ -109,31 +109,6 @@ If you find this project helpful, consider supporting me:
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor_Me_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/CreepyLewis)
 
-## 🔥 GitHub Stats
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
- 
-</div>
-
-## 🧠 Most Used Languages
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CreepyLewis&layout=compact&theme=tokyonight&hide_border=true" />
-</div>
-
-
-<h1 align="center">👾 Lewis</h1>
-
-<p align="center">
-  <code>Python • Data • Math • GitHub addict</code>
-</p>
-
----
-## 🧮 Custom GitHub Stats
-<p align="center">
-  <img src="https://raw.githubusercontent.com/CreepyLewis/CreepyLewis/main/stats/stats.svg" />
-</p>
-
-
 ## 🐍 Contribution Graph
 <picture>
   <source media="(prefers-color-scheme: dark)"
