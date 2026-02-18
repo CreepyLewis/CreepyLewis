@@ -8,16 +8,6 @@
   <img src="https://komarev.com/ghpvc/?username=CreepyLewis&color=00ff41&style=flat-square">
 </p>
 
----
-
-# 🧑‍💻 WHO AM I
-
-```bash
-> location: Karen, Nairobi
-> focus: Full Stack Development + AI
-> vibe: Calm. Dangerous. Consistent.
-> currently_building: Smart Apps & Data Systems
-## 🌐 Connect with me:
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/CreepyLewis)
 [![Spotify](https://img.shields.io/badge/Spotify-1DB954?logo=spotify&logoColor=white)](https://open.spotify.com/user/creepylewis)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://instagram.com/lewis.karl7)
