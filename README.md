@@ -1,8 +1,22 @@
-# 👋 Hey, I'm  CreepyLewis
+<!-- ================== HEADER ================== -->
 
-📍 **KAREN, Nairobi County**  
-🎯 *Main character, low budget*  
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Hey+I'm+Lewis;Full+Stack+Developer;AI+%2F+ML+Explorer;Building+Cool+Things+From+Kenya+🇰🇪;Main+Character+Low+Budget" />
+</h1>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=CreepyLewis&color=00ff41&style=flat-square">
+</p>
+
+---
+
+# 🧑‍💻 WHO AM I
+
+```bash
+> location: Karen, Nairobi
+> focus: Full Stack Development + AI
+> vibe: Calm. Dangerous. Consistent.
+> currently_building: Smart Apps & Data Systems
 ## 🌐 Connect with me:
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/CreepyLewis)
 [![Spotify](https://img.shields.io/badge/Spotify-1DB954?logo=spotify&logoColor=white)](https://open.spotify.com/user/creepylewis)
@@ -123,25 +137,3 @@ If you find this project helpful, consider supporting me:
 
 ## 📊 Activity Graph
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=CreepyLewis&theme=github-dark&hide_border=true)
-
-<!-- ================== HEADER ================== -->
-
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Hey+I'm+Lewis;Full+Stack+Developer;AI+%2F+ML+Explorer;Building+Cool+Things+From+Kenya+🇰🇪;Main+Character+Low+Budget" />
-</h1>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=CreepyLewis&color=00ff41&style=flat-square">
-</p>
-
----
-
-# 🧑‍💻 WHO AM I
-
-```bash
-> location: Karen, Nairobi
-> focus: Full Stack Development + AI
-> vibe: Calm. Dangerous. Consistent.
-> currently_building: Smart Apps & Data Systems
-
-
