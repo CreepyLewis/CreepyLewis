@@ -158,26 +158,7 @@ If you find this project helpful, consider supporting me:
 
 ---
 
-# 🖥 Terminal Access
 
-```bash
-> whoami
-CreepyLewis
-
-> location
-Karen, Nairobi
-
-> stack
-Python | React | Node | Django | Docker | PostgreSQL
-
-> currently_building
-AI tools • Web systems • Automation scripts
-
-> philosophy
-Build. Break. Learn. Repeat.
-```
-
----
 
 # 🧠 GitHub Intelligence System
 
