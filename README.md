@@ -1,14 +1,36 @@
-<!-- ================== HEADER ================== -->
+<div align="center">
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Hey+I'm+Lewis;Full+Stack+Developer;AI+%2F+ML+Explorer;Building+Cool+Things+From+Kenya+🇰🇪;Main+Character+Low+Budget" />
-</h1>
+<!-- 💎 CUSTOM NEON HACKER BANNER -->
+<img src="https://svg-banners.vercel.app/api?type=glitch&text1=CreepyLewis&width=900&height=200" />
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=CreepyLewis&color=00ff41&style=flat-square">
-</p>
- 
-CONNECT WITH ME 🌟
+</div>
+
+---
+
+<div align="center">
+
+<!-- 🔥 MATRIX RAIN GIF -->
+<img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="100%" />
+
+</div>
+
+---
+
+<div align="center">
+
+<!-- ⚡ Animated Typing -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Data+%26+AI+Enthusiast;Automation+Architect;Main+Character,+Low+Budget" />
+
+</div>
+
+---
+
+
+
+
+# 🌐 Secure Channels
+
+<div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/CreepyLewis)
 [![Spotify](https://img.shields.io/badge/Spotify-1DB954?logo=spotify&logoColor=white)](https://open.spotify.com/user/creepylewis)
@@ -108,56 +130,11 @@ CONNECT WITH ME 🌟
 ![Notion](https://img.shields.io/badge/Notion-000000?logo=notion&logoColor=white)
 
 
-
-If you find this project helpful, consider supporting me:
+### ☕ Fuel The Machine
 
 [!["Buy Me A Coffee"](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/lewiskitho2)
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor_Me_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/CreepyLewis)
-
-## 🐍 Contribution Graph
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/CreepyLewis/CreepyLewis/output/snake-dark.svg">
-  <img
-    src="https://raw.githubusercontent.com/CreepyLewis/CreepyLewis/output/snake.svg">
-</picture>
-
-## 👣 Visitor Count
-![Visitor Count](https://komarev.com/ghpvc/?username=CreepyLewis&color=blueviolet)
-
-
-## 📊 Activity Graph
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=CreepyLewis&theme=github-dark&hide_border=true)
-
-
-<div align="center">
-
-<!-- 💎 CUSTOM NEON HACKER BANNER -->
-<img src="https://svg-banners.vercel.app/api?type=glitch&text1=CreepyLewis&width=900&height=200" />
-
-</div>
-
----
-
-<div align="center">
-
-<!-- 🔥 MATRIX RAIN GIF -->
-<img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="100%" />
-
-</div>
-
----
-
-<div align="center">
-
-<!-- ⚡ Animated Typing -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Data+%26+AI+Enthusiast;Automation+Architect;Main+Character,+Low+Budget" />
-
-</div>
-
----
-
 
 
 # 🧠 GitHub Intelligence System
@@ -190,17 +167,6 @@ If you find this project helpful, consider supporting me:
 
 </div>
 
-⚠ Replace `YOUR_WAKATIME_USERNAME` with your actual WakaTime username.
-
-If you don’t have WakaTime:
-1. Go to https://wakatime.com  
-2. Create account  
-3. Install extension in VS Code  
-4. Start coding  
-
-It auto-updates.
-
----
 
 # 🧠 Now Playing on Spotify
 
@@ -209,12 +175,6 @@ It auto-updates.
 <img src="https://spotify-github-profile.vercel.app/api/view?uid=creepylewis&cover_image=true&theme=novatorem&show_offline=true&background_color=000000" />
 
 </div>
-
-Since you enjoy Taylor Swift, this will show what you're playing live.
-
-If it doesn’t work:
-- Spotify must be playing something
-- Profile must be public
 
 ---
 
@@ -237,23 +197,3 @@ If it doesn’t work:
 </div>
 
 ---
-
-# 🌐 Secure Channels
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github)](https://github.com/CreepyLewis)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/lewis-kithome)
-[![Instagram](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram)](https://instagram.com/lewis.karl7)
-
-</div>
-
----
-
-<div align="center">
-
-### ☕ Fuel The Machine
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-000000?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/lewiskitho2)
-
-</div>
