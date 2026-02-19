@@ -1,48 +1,40 @@
-import fetch from 'node-fetch';
+import { useEffect, useState } from 'react';
 
-const clientId = process.env.SPOTIFY_CLIENT_ID;
-const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
+export default function SpotifyWidget() {
+  const [songData, setSongData] = useState(null);
 
-let accessToken = null;
-let tokenExpiry = 0;
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await fetch('/api/spotify');
+      const data = await res.json();
+      setSongData(data);
+    };
+    fetchData();
+    const interval = setInterval(fetchData, 1000); // refresh every 1 second for smoother progress
+    return () => clearInterval(interval);
+  }, []);
 
-async function getAccessToken() {
-  if (accessToken && Date.now() < tokenExpiry) return accessToken;
+  if (!songData || !songData.playing) return <div>Not playing</div>;
 
-  const res = await fetch('https://accounts.spotify.com/api/token', {
-    method: 'POST',
-    headers: {
-      'Authorization': 'Basic ' + Buffer.from(clientId + ':' + clientSecret).toString('base64'),
-      'Content-Type': 'application/x-www-form-urlencoded',
-    },
-    body: 'grant_type=client_credentials'
-  });
+  const progressPercent = (songData.progress / songData.duration) * 100;
 
-  const data = await res.json();
-  accessToken = data.access_token;
-  tokenExpiry = Date.now() + data.expires_in * 1000; // expires_in is in seconds
-  return accessToken;
-}
-
-export default async function handler(req, res) {
-  const token = await getAccessToken();
-  const response = await fetch('https://api.spotify.com/v1/me/player/currently-playing', {
-    headers: {
-      'Authorization': 'Bearer ' + token,
-    },
-  });
-
-  if (response.status === 204 || response.status > 400) {
-    return res.status(200).json({ playing: false });
-  }
-
-  const data = await response.json();
-  res.status(200).json({
-    playing: true,
-    song: data.item.name,
-    artist: data.item.artists.map(a => a.name).join(', '),
-    albumArt: data.item.album.images[0].url,
-    progress: data.progress_ms,
-    duration: data.item.duration_ms,
-  });
+  return (
+    <div style={{
+      width: '300px',
+      fontFamily: 'sans-serif',
+      border: '1px solid #ccc',
+      padding: '10px',
+      borderRadius: '10px',
+      background: '#121212',
+      color: '#fff'
+    }}>
+      <h2 style={{ margin: '0 0 10px 0', fontSize: '18px', textAlign: 'center' }}>🧠 Now Playing on Spotify</h2>
+      <img src={songData.albumArt} alt="album" style={{ width: '100%', borderRadius: '8px' }} />
+      <h3 style={{ margin: '10px 0 5px 0', fontSize: '16px' }}>{songData.song}</h3>
+      <p style={{ margin: '0 0 10px 0', fontSize: '14px', color: '#aaa' }}>{songData.artist}</p>
+      <div style={{ background: '#333', width: '100%', height: '5px', borderRadius: '5px' }}>
+        <div style={{ background: '#1DB954', width: `${progressPercent}%`, height: '100%', borderRadius: '5px', transition: 'width 0.5s linear' }} />
+      </div>
+    </div>
+  );
 }
