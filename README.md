@@ -129,3 +129,150 @@ If you find this project helpful, consider supporting me:
 
 ## 📊 Activity Graph
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=CreepyLewis&theme=github-dark&hide_border=true)
+
+
+<div align="center">
+
+<!-- 💎 CUSTOM NEON HACKER BANNER -->
+<img src="https://svg-banners.vercel.app/api?type=glitch&text1=CreepyLewis&width=900&height=200" />
+
+</div>
+
+---
+
+<div align="center">
+
+<!-- 🔥 MATRIX RAIN GIF -->
+<img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="100%" />
+
+</div>
+
+---
+
+<div align="center">
+
+<!-- ⚡ Animated Typing -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Data+%26+AI+Enthusiast;Automation+Architect;Main+Character,+Low+Budget" />
+
+</div>
+
+---
+
+# 🖥 Terminal Access
+
+```bash
+> whoami
+CreepyLewis
+
+> location
+Karen, Nairobi
+
+> stack
+Python | React | Node | Django | Docker | PostgreSQL
+
+> currently_building
+AI tools • Web systems • Automation scripts
+
+> philosophy
+Build. Break. Learn. Repeat.
+```
+
+---
+
+# 🧠 GitHub Intelligence System
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=radical&hide_border=true" />
+
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=CreepyLewis&theme=radical&hide_border=true" />
+
+</div>
+
+---
+
+# 📊 Language Matrix
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CreepyLewis&layout=compact&theme=radical&hide_border=true" />
+
+</div>
+
+---
+
+# 🎯 Live Coding Activity (WakaTime)
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=YOUR_WAKATIME_USERNAME&theme=radical&hide_border=true" />
+
+</div>
+
+⚠ Replace `YOUR_WAKATIME_USERNAME` with your actual WakaTime username.
+
+If you don’t have WakaTime:
+1. Go to https://wakatime.com  
+2. Create account  
+3. Install extension in VS Code  
+4. Start coding  
+
+It auto-updates.
+
+---
+
+# 🧠 Now Playing on Spotify
+
+<div align="center">
+
+<img src="https://spotify-github-profile.vercel.app/api/view?uid=creepylewis&cover_image=true&theme=novatorem&show_offline=true&background_color=000000" />
+
+</div>
+
+Since you enjoy Taylor Swift, this will show what you're playing live.
+
+If it doesn’t work:
+- Spotify must be playing something
+- Profile must be public
+
+---
+
+# 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/CreepyLewis/CreepyLewis/output/snake-dark.svg" />
+
+</div>
+
+---
+
+# 📈 Activity Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=CreepyLewis&theme=github-compact&hide_border=true&area=true" />
+
+</div>
+
+---
+
+# 🌐 Secure Channels
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github)](https://github.com/CreepyLewis)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/lewis-kithome)
+[![Instagram](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram)](https://instagram.com/lewis.karl7)
+
+</div>
+
+---
+
+<div align="center">
+
+### ☕ Fuel The Machine
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-000000?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/lewiskitho2)
+
+</div>
