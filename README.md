@@ -62,6 +62,19 @@
 </div>
 
 ---
+# 🌐 Secure Channels
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/CreepyLewis)
+[![Spotify](https://img.shields.io/badge/Spotify-1DB954?logo=spotify&logoColor=white)](https://open.spotify.com/user/creepylewis)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://instagram.com/lewis.karl7)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?logo=tiktok&logoColor=white)](https://tiktok.com/@lewis.karl7)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white)](https://youtube.com/@LEWISKITHOME-I9y)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/lewis-kithome)
+
+---
+
 
 
 # ⚡ AUTO-UPDATING QUOTE SYSTEM
@@ -103,24 +116,10 @@ Stay dangerous.
 </details>
 
 ---
-
-
-
-
-# 🌐 Secure Channels
-
 <div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/CreepyLewis)
-[![Spotify](https://img.shields.io/badge/Spotify-1DB954?logo=spotify&logoColor=white)](https://open.spotify.com/user/creepylewis)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://instagram.com/lewis.karl7)
-[![TikTok](https://img.shields.io/badge/TikTok-000000?logo=tiktok&logoColor=white)](https://tiktok.com/@lewis.karl7)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/CreepyLewis/)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white)](https://youtube.com/@LEWISKITHOME-I9y)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/lewis-kithome)
-
----
-
+<img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="100%">
+</div>
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%">
 # Tech Stack:
 
 ## Programming Languages & Markup
