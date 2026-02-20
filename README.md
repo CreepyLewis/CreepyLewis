@@ -1,31 +1,30 @@
+
+<!-- 🖤 MATRIX PURE MODE -->
+
 <div align="center">
 
-<!-- 💎 CUSTOM NEON HACKER BANNER -->
-<img src="https://svg-banners.vercel.app/api?type=glitch&text1=CreepyLewis&width=900&height=200" />
+<!-- 💎 CUSTOM ANIMATED SVG BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00ff41&height=200&section=header&text=CreepyLewis&fontColor=00ff41&fontSize=60&animation=fadeIn&fontAlignY=35&desc=System%20Online&descAlignY=55&descAlign=50" />
 
 </div>
 
 ---
 
-<div align="center">
-
-<!-- 🔥 MATRIX RAIN GIF -->
-<img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="100%" />
-
-</div>
+<!-- 🔥 MATRIX SCAN LINE EFFECT -->
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="100%">
+</p>
 
 ---
 
 <div align="center">
 
-<!-- ⚡ Animated Typing -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Data+%26+AI+Enthusiast;Automation+Architect;Main+Character,+Low+Budget" />
+<!-- ⚡ TERMINAL TYPING -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=800&lines=Accessing+Mainframe...;Full+Stack+Developer;AI+%7C+Automation+%7C+Systems;Main+Character,+Low+Budget;System+Status:+OPERATIONAL" />
 
 </div>
 
 ---
-
-
 
 
 # 🌐 Secure Channels
@@ -225,27 +224,6 @@
 
 ---
 
-# 🖥 SYSTEM TERMINAL
-
-```bash
-> whoami
-CreepyLewis
-
-> location
-Karen, Nairobi
-
-> specialization
-Full Stack • Data Systems • Automation
-
-> current_mode
-MATRIX_PURE
-
-> mission
-Build. Break. Upgrade.
-```
-
----
-
 # 📡 LIVE SYSTEM STATUS PANEL
 
 ```diff
@@ -272,25 +250,6 @@ Build. Break. Upgrade.
 
 ---
 
-# 🧬 LANGUAGE MATRIX
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CreepyLewis&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=000000" />
-
-</div>
-
----
-
-# 🐍 NEON CONTRIBUTION SNAKE
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/CreepyLewis/CreepyLewis/output/snake-dark.svg" />
-
-</div>
-
----
 
 # ⚡ AUTO-UPDATING QUOTE SYSTEM
 
@@ -302,15 +261,6 @@ Build. Break. Upgrade.
 
 ---
 
-# 🎧 SIGNAL: NOW PLAYING
-
-<div align="center">
-
-<img src="https://spotify-github-profile.vercel.app/api/view?uid=creepylewis&cover_image=true&theme=novatorem&background_color=000000&bar_color=00ff41&bar_color_cover=true" />
-
-</div>
-
----
 
 # 🧠 AI AVATAR (HACKER MODE)
 
