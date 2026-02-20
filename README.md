@@ -35,6 +35,15 @@
 
 ---
 
+<!-- 🔥 MATRIX SCAN LINE EFFECT -->
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="100%">
+</p>
+
+---
+
+<div align="center">
+
 
 <!-- ⚡ TERMINAL TYPING -->
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=800&gradient=00FF41,FF00FF,00FFFF,00FF41&lines=Accessing+Mainframe...;Full+Stack+Developer;AI+%7C+Automation+%7C+Systems;Main+Character,+Low+Budget;System+Status:+OPERATIONAL" />
