@@ -55,12 +55,11 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=000000" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=00ff00&icon_color=00ff00&text_color=00ff00" />
 
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=CreepyLewis&theme=chartreuse-dark&hide_border=true&background=000000" />
+<img height="170" src="https://streak-stats.demolab.com?user=CreepyLewis&theme=chartreuse-dark&hide_border=true&background=000000&ring=00ff00&fire=00ff00&currStreakLabel=00ff00" />
 
 </div>
-
 ---
 # 🌐 Secure Channels
 
