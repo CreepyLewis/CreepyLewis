@@ -35,14 +35,53 @@
 
 ---
 
-<!-- 🔥 MATRIX SCAN LINE EFFECT -->
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="100%">
-</p>
-
----
-
+<!-- 🔥 MATRIX COLOR SHIFT SCAN LINES -->
 <div align="center">
+
+<svg width="100%" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="1200" height="180" fill="black"/>
+
+  <!-- Animated Scan Lines -->
+  <defs>
+    <linearGradient id="scanColor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00ff41">
+        <animate attributeName="stop-color"
+                 values="#00ff41;#00ffff;#a020f0;#00ff41"
+                 dur="6s"
+                 repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="black"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="180" fill="url(#scanColor)">
+    <animate attributeName="y"
+             from="-180"
+             to="180"
+             dur="4s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Glowing Text -->
+  <text x="50%" y="50%" text-anchor="middle"
+        fill="#00ff41"
+        font-family="monospace"
+        font-size="28"
+        dominant-baseline="middle">
+
+    CREEPYLEWIS :: SYSTEM ACTIVE
+
+    <animate attributeName="fill"
+             values="#00ff41;#00ffff;#a020f0;#00ff41"
+             dur="6s"
+             repeatCount="indefinite"/>
+  </text>
+
+</svg>
+
+</div>
 
 <!-- ⚡ TERMINAL TYPING -->
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=800&gradient=00FF41,FF00FF,00FFFF,00FF41&lines=Accessing+Mainframe...;Full+Stack+Developer;AI+%7C+Automation+%7C+Systems;Main+Character,+Low+Budget;System+Status:+OPERATIONAL" />
