@@ -35,21 +35,6 @@
 
 ---
 
-<text x="50%" y="50%" text-anchor="middle"
-      font-family="monospace"
-      font-size="28"
-      dominant-baseline="middle">
-
-  <tspan fill="#00ff41">
-    CREEPYLEWIS :: ROOT ACCESS
-  </tspan>
-
-  <animate attributeName="opacity"
-           values="1;0.6;1;0.8;1"
-           dur="0.8s"
-           repeatCount="indefinite"/>
-
-</text>
 
 <!-- ⚡ TERMINAL TYPING -->
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=800&gradient=00FF41,FF00FF,00FFFF,00FF41&lines=Accessing+Mainframe...;Full+Stack+Developer;AI+%7C+Automation+%7C+Systems;Main+Character,+Low+Budget;System+Status:+OPERATIONAL" />
