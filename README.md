@@ -197,32 +197,6 @@
 
 ---
 
-<!-- 🖤 MATRIX PURE MODE -->
-
-<div align="center">
-
-<!-- 💎 CUSTOM ANIMATED SVG BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00ff41&height=200&section=header&text=CreepyLewis&fontColor=00ff41&fontSize=60&animation=fadeIn&fontAlignY=35&desc=System%20Online&descAlignY=55&descAlign=50" />
-
-</div>
-
----
-
-<!-- 🔥 MATRIX SCAN LINE EFFECT -->
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="100%">
-</p>
-
----
-
-<div align="center">
-
-<!-- ⚡ TERMINAL TYPING -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=800&lines=Accessing+Mainframe...;Full+Stack+Developer;AI+%7C+Automation+%7C+Systems;Main+Character,+Low+Budget;System+Status:+OPERATIONAL" />
-
-</div>
-
----
 
 # 📡 LIVE SYSTEM STATUS PANEL
 
