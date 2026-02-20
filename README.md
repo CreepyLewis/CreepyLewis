@@ -116,10 +116,7 @@ Stay dangerous.
 </details>
 
 ---
-<div align="center">
-<img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="100%">
-</div>
-<img src="https://i.imgur.com/8Km9tLL.gif" width="100%">
+
 # Tech Stack:
 
 ## Programming Languages & Markup
