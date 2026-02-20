@@ -1,4 +1,29 @@
+<div align="center">
 
+<svg width="100%" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="200" fill="black"/>
+  
+  <!-- Glowing Text -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        fill="#00ff41" font-size="48" font-family="monospace">
+    CreepyLewis
+    <animate attributeName="opacity"
+             values="1;0.6;1"
+             dur="2s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <!-- Scan Line -->
+  <rect x="0" y="-10" width="800" height="10" fill="#00ff41" opacity="0.3">
+    <animate attributeName="y"
+             from="-10"
+             to="200"
+             dur="3s"
+             repeatCount="indefinite"/>
+  </rect>
+</svg>
+
+</div>
 <!-- 🖤 MATRIX PURE MODE -->
 
 <div align="center">
