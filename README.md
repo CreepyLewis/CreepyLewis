@@ -212,19 +212,6 @@ Stay dangerous.
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor_Me_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/CreepyLewis)
 
 
-# 🧠 GitHub Intelligence System
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=radical&hide_border=true" />
-
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=CreepyLewis&theme=radical&hide_border=true" />
-
-</div>
-
----
-
-
 # 🐍 Contribution Snake
 
 <div align="center">
