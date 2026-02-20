@@ -197,3 +197,147 @@
 </div>
 
 ---
+
+<!-- 🖤 MATRIX PURE MODE -->
+
+<div align="center">
+
+<!-- 💎 CUSTOM ANIMATED SVG BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00ff41&height=200&section=header&text=CreepyLewis&fontColor=00ff41&fontSize=60&animation=fadeIn&fontAlignY=35&desc=System%20Online&descAlignY=55&descAlign=50" />
+
+</div>
+
+---
+
+<!-- 🔥 MATRIX SCAN LINE EFFECT -->
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="100%">
+</p>
+
+---
+
+<div align="center">
+
+<!-- ⚡ TERMINAL TYPING -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=800&lines=Accessing+Mainframe...;Full+Stack+Developer;AI+%7C+Automation+%7C+Systems;Main+Character,+Low+Budget;System+Status:+OPERATIONAL" />
+
+</div>
+
+---
+
+# 🖥 SYSTEM TERMINAL
+
+```bash
+> whoami
+CreepyLewis
+
+> location
+Karen, Nairobi
+
+> specialization
+Full Stack • Data Systems • Automation
+
+> current_mode
+MATRIX_PURE
+
+> mission
+Build. Break. Upgrade.
+```
+
+---
+
+# 📡 LIVE SYSTEM STATUS PANEL
+
+```diff
++ Server Status:        ONLINE
++ Security Layer:       ACTIVE
++ Firewall:             ENABLED
++ Encryption:           AES-256
++ GitHub Commits:       TRACKING...
++ Coding Activity:      MONITORING...
++ Spotify Signal:       CONNECTED
+```
+
+---
+
+# 🧠 GITHUB CORE METRICS
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=000000" />
+
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=CreepyLewis&theme=chartreuse-dark&hide_border=true&background=000000" />
+
+</div>
+
+---
+
+# 🧬 LANGUAGE MATRIX
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CreepyLewis&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=000000" />
+
+</div>
+
+---
+
+# 🐍 NEON CONTRIBUTION SNAKE
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/CreepyLewis/CreepyLewis/output/snake-dark.svg" />
+
+</div>
+
+---
+
+# ⚡ AUTO-UPDATING QUOTE SYSTEM
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
+
+</div>
+
+---
+
+# 🎧 SIGNAL: NOW PLAYING
+
+<div align="center">
+
+<img src="https://spotify-github-profile.vercel.app/api/view?uid=creepylewis&cover_image=true&theme=novatorem&background_color=000000&bar_color=00ff41&bar_color_cover=true" />
+
+</div>
+
+---
+
+# 🧠 AI AVATAR (HACKER MODE)
+
+<div align="center">
+
+<img src="https://api.dicebear.com/7.x/bottts/svg?seed=CreepyLewis&backgroundColor=000000&radius=50" width="180"/>
+
+</div>
+
+---
+
+# 🎮 SECRET TERMINAL ACCESS
+
+<details>
+<summary>🟢 Enter Command...</summary>
+
+```bash
+> sudo reveal-secret
+
+ACCESS GRANTED.
+
+You are not behind.
+You are building.
+Stay dangerous.
+```
+
+</details>
+
+---
+
