@@ -26,6 +26,61 @@
 
 ---
 
+# 🧠 GITHUB CORE METRICS
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=000000" />
+
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=CreepyLewis&theme=chartreuse-dark&hide_border=true&background=000000" />
+
+</div>
+
+---
+
+
+# ⚡ AUTO-UPDATING QUOTE SYSTEM
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
+
+</div>
+
+---
+
+
+# 🧠 AI AVATAR (HACKER MODE)
+
+<div align="center">
+
+<img src="https://api.dicebear.com/7.x/bottts/svg?seed=CreepyLewis&backgroundColor=000000&radius=50" width="180"/>
+
+</div>
+
+---
+
+# 🎮 SECRET TERMINAL ACCESS
+
+<details>
+<summary>🟢 Enter Command...</summary>
+
+```bash
+> sudo reveal-secret
+
+ACCESS GRANTED.
+
+You are not behind.
+You are building.
+Stay dangerous.
+```
+
+</details>
+
+---
+
+
+
 
 # 🌐 Secure Channels
 
@@ -148,34 +203,6 @@
 
 ---
 
-# 📊 Language Matrix
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CreepyLewis&layout=compact&theme=radical&hide_border=true" />
-
-</div>
-
----
-
-# 🎯 Live Coding Activity (WakaTime)
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=YOUR_WAKATIME_USERNAME&theme=radical&hide_border=true" />
-
-</div>
-
-
-# 🧠 Now Playing on Spotify
-
-<div align="center">
-
-<img src="https://spotify-github-profile.vercel.app/api/view?uid=creepylewis&cover_image=true&theme=novatorem&show_offline=true&background_color=000000" />
-
-</div>
-
----
 
 # 🐍 Contribution Snake
 
