@@ -90,35 +90,6 @@
 ---
 
 
-# 🧠 AI AVATAR (HACKER MODE)
-
-<div align="center">
-
-<img src="https://api.dicebear.com/7.x/bottts/svg?seed=CreepyLewis&backgroundColor=000000&radius=50" width="180"/>
-
-</div>
-
----
-
-# 🎮 SECRET TERMINAL ACCESS
-
-<details>
-<summary>🟢 Enter Command...</summary>
-
-```bash
-> sudo reveal-secret
-
-ACCESS GRANTED.
-
-You are not behind.
-You are building.
-Stay dangerous.
-```
-
-</details>
-
----
-
 # Tech Stack:
 
 ## Programming Languages & Markup
