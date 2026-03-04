@@ -1,103 +1,298 @@
 import os
 import requests
-from datetime import datetime
+import json
+import argparse
+from datetime import datetime, timezone
+from pathlib import Path
 
-USERNAME = "CreepyLewis"
-TOKEN = os.environ.get("GH_TOKEN")
+# =============================
+# CONFIGURATION
+# =============================
 
-if not TOKEN:
-    raise Exception("GH_TOKEN not found")
+DEFAULT_USERNAME = "CreepyLewis"
+CACHE_FILE = "stats/cache.json"
+CACHE_DAYS = 1  # Cache duration in days
 
-HEADERS = {
-    "Authorization": f"Bearer {TOKEN}",
-    "Content-Type": "application/json"
+THEMES = {
+    "dark": {
+        "bg": "#161b22",
+        "text": "#c9d1d9",
+        "text_secondary": "#8b949e",
+        "accent": "#ff9f1c",
+        "dot_colors": ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+    },
+    "light": {
+        "bg": "#ffffff",
+        "text": "#24292e",
+        "text_secondary": "#586069",
+        "accent": "#0366d6",
+        "dot_colors": ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"]
+    }
 }
 
-QUERY = """
-query($login: String!) {
-  user(login: $login) {
-    contributionsCollection {
-      contributionCalendar {
-        weeks {
-          contributionDays {
-            contributionCount
-            date
+# =============================
+# ARGUMENT PARSER
+# =============================
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(description="Generate GitHub contribution stats SVG")
+    parser.add_argument("--username", default=DEFAULT_USERNAME)
+    parser.add_argument("--output", default="stats/stats.svg")
+    parser.add_argument("--width", type=int, default=800)
+    parser.add_argument("--height", type=int, default=220)
+    parser.add_argument("--theme", default="dark", choices=THEMES.keys())
+    parser.add_argument("--no-cache", action="store_true")
+    return parser.parse_args()
+
+# =============================
+# FETCH DATA (WITH CACHE)
+# =============================
+
+def fetch_github_data(username, token, use_cache=True):
+
+    # Try cache first
+    if use_cache and Path(CACHE_FILE).exists():
+        try:
+            with open(CACHE_FILE, "r") as f:
+                cache = json.load(f)
+
+            cache_date = datetime.fromisoformat(cache["date"])
+            if (
+                (datetime.now(timezone.utc) - cache_date).days < CACHE_DAYS
+                and cache.get("username") == username
+            ):
+                print("Using cached data")
+                return cache["days"]
+        except Exception:
+            pass  # Corrupted cache -> ignore
+
+    print("Fetching fresh data from GitHub API")
+
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json"
+    }
+
+    query = """
+    query($login: String!) {
+      user(login: $login) {
+        contributionsCollection {
+          contributionCalendar {
+            weeks {
+              contributionDays {
+                contributionCount
+                date
+              }
+            }
           }
         }
       }
     }
-  }
-}
-"""
+    """
 
-res = requests.post(
-    "https://api.github.com/graphql",
-    json={"query": QUERY, "variables": {"login": USERNAME}},
-    headers=HEADERS
-)
+    response = requests.post(
+        "https://api.github.com/graphql",
+        json={"query": query, "variables": {"login": username}},
+        headers=headers,
+        timeout=15
+    )
 
-data = res.json()
-if "errors" in data:
-    raise Exception(data["errors"])
+    if response.status_code != 200:
+        raise Exception(f"GitHub API returned {response.status_code}")
 
-weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+    data = response.json()
 
-days = [d for w in weeks for d in w["contributionDays"]]
+    if "errors" in data:
+        raise Exception(data["errors"])
 
-total = sum(d["contributionCount"] for d in days)
+    weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+    days = [day for week in weeks for day in week["contributionDays"]]
 
-current_streak = 0
-for d in reversed(days):
-    if d["contributionCount"] > 0:
-        current_streak += 1
-    else:
-        break
+    # Save cache
+    os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
+    with open(CACHE_FILE, "w") as f:
+        json.dump({
+            "date": datetime.now(timezone.utc).isoformat(),
+            "username": username,
+            "days": days
+        }, f)
 
-longest_streak = temp = 0
-for d in days:
-    if d["contributionCount"] > 0:
-        temp += 1
-        longest_streak = max(longest_streak, temp)
-    else:
-        temp = 0
+    return days
 
-start_date = days[0]["date"]
-end_date = datetime.today().strftime("%b %d, %Y")
+# =============================
+# CALCULATE STATS
+# =============================
 
-svg = f"""
-<svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="180" rx="16" fill="#161b22"/>
-  <text x="30" y="35" fill="#ff9f1c" font-size="18" font-family="monospace">
-    GITHUB ACTIVITY
-  </text>
+def calculate_stats(days):
 
-  <text x="30" y="75" fill="#8b949e" font-size="13" font-family="monospace">
-    Total Contributions
-  </text>
-  <text x="30" y="110" fill="#c9d1d9" font-size="28" font-family="monospace">
-    {total}
-  </text>
+    today = datetime.now(timezone.utc).date()
 
-  <text x="300" y="75" fill="#8b949e" font-size="13" font-family="monospace">
-    Current Streak
-  </text>
-  <text x="300" y="110" fill="#c9d1d9" font-size="28" font-family="monospace">
-    {current_streak}
-  </text>
+    # Remove future dates (safety)
+    valid_days = []
+    for day in days:
+        day_date = datetime.strptime(day["date"], "%Y-%m-%d").date()
+        if day_date <= today:
+            valid_days.append(day)
 
-  <text x="550" y="75" fill="#8b949e" font-size="13" font-family="monospace">
-    Longest Streak
-  </text>
-  <text x="550" y="110" fill="#c9d1d9" font-size="28" font-family="monospace">
-    {longest_streak}
-  </text>
+    total = sum(day["contributionCount"] for day in valid_days)
 
-  <text x="30" y="150" fill="#8b949e" font-size="13" font-family="monospace">
-    {start_date} – {end_date}
-  </text>
+    # Current streak
+    current_streak = 0
+    for day in reversed(valid_days):
+        if day["contributionCount"] > 0:
+            current_streak += 1
+        else:
+            break
+
+    # Longest streak
+    longest_streak = 0
+    temp = 0
+    for day in valid_days:
+        if day["contributionCount"] > 0:
+            temp += 1
+            longest_streak = max(longest_streak, temp)
+        else:
+            temp = 0
+
+    return total, current_streak, longest_streak, valid_days
+
+# =============================
+# GENERATE DOTS
+# =============================
+
+def generate_contribution_dots(days, theme, max_dots=53):
+
+    dots = ""
+    x_start = 30
+    y_pos = 175
+
+    recent_days = days[-max_dots:]
+
+    for i, day in enumerate(recent_days):
+        count = day["contributionCount"]
+
+        if count == 0:
+            color_idx = 0
+        elif count < 3:
+            color_idx = 1
+        elif count < 6:
+            color_idx = 2
+        elif count < 10:
+            color_idx = 3
+        else:
+            color_idx = 4
+
+        fill = theme["dot_colors"][color_idx]
+        date = datetime.strptime(day["date"], "%Y-%m-%d").strftime("%b %d, %Y")
+
+        dots += f"""
+        <rect x="{x_start + i*12}" y="{y_pos}" width="10" height="10" rx="2" fill="{fill}">
+            <title>{date}: {count} contribution{"s" if count != 1 else ""}</title>
+        </rect>
+        """
+
+    return dots
+
+# =============================
+# ERROR SVG
+# =============================
+
+def create_error_svg(message, args):
+
+    theme = THEMES[args.theme]
+
+    return f"""
+    <svg width="{args.width}" height="{args.height}" xmlns="http://www.w3.org/2000/svg">
+        <rect width="100%" height="100%" rx="16" fill="{theme['bg']}"/>
+        <text x="30" y="50" fill="{theme['accent']}" font-size="18" font-family="monospace">
+            GITHUB ACTIVITY - ERROR
+        </text>
+        <text x="30" y="100" fill="{theme['text']}" font-size="13" font-family="monospace">
+            {str(message)[:80]}
+        </text>
+    </svg>
+    """
+
+# =============================
+# MAIN
+# =============================
+
+def main():
+
+    args = parse_arguments()
+    token = os.environ.get("GH_TOKEN")
+
+    if not token:
+        print("Error: GH_TOKEN environment variable not found.")
+        return
+
+    try:
+        days = fetch_github_data(args.username, token, use_cache=not args.no_cache)
+
+        total, current_streak, longest_streak, valid_days = calculate_stats(days)
+
+        start_date = datetime.strptime(valid_days[0]["date"], "%Y-%m-%d")
+        end_date = datetime.strptime(valid_days[-1]["date"], "%Y-%m-%d")
+
+        date_range = f"{start_date.strftime('%b %d, %Y')} – {end_date.strftime('%b %d, %Y')}"
+        theme = THEMES[args.theme]
+        dots = generate_contribution_dots(valid_days, theme)
+
+        svg = f"""
+<svg width="{args.width}" height="{args.height}" xmlns="http://www.w3.org/2000/svg">
+<rect width="100%" height="100%" rx="16" fill="{theme['bg']}"/>
+
+<text x="30" y="35" fill="{theme['accent']}" font-size="18" font-family="monospace">
+GITHUB ACTIVITY - @{args.username}
+</text>
+
+<text x="30" y="75" fill="{theme['text_secondary']}" font-size="13" font-family="monospace">
+Total Contributions
+</text>
+<text x="30" y="110" fill="{theme['text']}" font-size="28" font-family="monospace" font-weight="bold">
+{total:,}
+</text>
+
+<text x="300" y="75" fill="{theme['text_secondary']}" font-size="13" font-family="monospace">
+Current Streak
+</text>
+<text x="300" y="110" fill="{theme['text']}" font-size="28" font-family="monospace" font-weight="bold">
+{current_streak} day{'s' if current_streak != 1 else ''}
+</text>
+
+<text x="550" y="75" fill="{theme['text_secondary']}" font-size="13" font-family="monospace">
+Longest Streak
+</text>
+<text x="550" y="110" fill="{theme['text']}" font-size="28" font-family="monospace" font-weight="bold">
+{longest_streak} day{'s' if longest_streak != 1 else ''}
+</text>
+
+<text x="30" y="150" fill="{theme['text_secondary']}" font-size="12" font-family="monospace">
+{date_range}
+</text>
+
+<text x="30" y="170" fill="{theme['text_secondary']}" font-size="10" font-family="monospace">
+Recent activity:
+</text>
+
+{dots}
+
+<text x="{args.width - 30}" y="{args.height - 15}" fill="{theme['text_secondary']}" font-size="9" font-family="monospace" text-anchor="end">
+Updated: {datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")}
+</text>
+
 </svg>
-"""
+        """
 
-os.makedirs("stats", exist_ok=True)
-with open("stats/stats.svg", "w") as f:
-    f.write(svg)
+    except Exception as e:
+        print("Error:", e)
+        svg = create_error_svg(e, args)
+
+    os.makedirs(os.path.dirname(args.output), exist_ok=True)
+    with open(args.output, "w") as f:
+        f.write(svg)
+
+    print(f"SVG generated: {args.output}")
+
+if __name__ == "__main__":
+    main()
