@@ -64,13 +64,14 @@ A platform that helps users find available rental houses quickly and easily.
 [![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://movie-recommender-ebfqtajlarzys4ngumfbd5.streamlit.app/)  
 A movie discovery platform that recommends films based on user preferences.
 
-
 ## 🚀 My Live Apps
 
 | **🏠 House Vacancy Finder** | **🎬 Movie Recommender** |
 |-----------------------------|--------------------------|
 | [![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://house-vacancy-finder-9d5mhr8gemsts3fqvnxogw.streamlit.app/) | [![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://movie-recommender-ebfqtajlarzys4ngumfbd5.streamlit.app/) |
+| ![Repo Size](https://img.shields.io/github/repo-size/CreepyLewis/house-vacancy-finder) | ![Repo Size](https://img.shields.io/github/repo-size/CreepyLewis/movie-recommender) |
 | A platform that helps users find available rental houses quickly and easily. | A movie discovery platform that recommends films based on user preferences. |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) ![TMDB](https://img.shields.io/badge/TMDB-01D277?style=flat&logo=tmdb&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) |
 
 ---
 
