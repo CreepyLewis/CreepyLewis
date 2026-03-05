@@ -46,8 +46,8 @@
 
 # 💻 Lewis’ Streamlit Portfolio
 
-![GitHub followers](https://img.shields.io/github/followers/yourusername?style=social)
-![GitHub stars](https://img.shields.io/github/stars/yourusername?style=social)
+![GitHub followers](https://img.shields.io/github/followers/?style=social)
+![GitHub stars](https://img.shields.io/github/stars/CreepyLewis?style=social)
 ![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/house-vacancy-finder)
 ![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/movie-recommender)
 
@@ -58,29 +58,11 @@
 ### 🏠 House Vacancy Finder
 [![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://house-vacancy-finder-9d5mhr8gemsts3fqvnxogw.streamlit.app/)  
 A platform that helps users find available rental houses quickly and easily.
-
-**Features:**  
-- 📍 View house listings  
-- 💬 Contact landlords  
-- ⭐ Featured listings  
-- 🗺️ Location-based search  
-- 📊 Admin dashboard
-
-**Tech Stack:** Python, Streamlit, Pandas  
-
 ---
 
 ### 🎬 Movie Recommender
 [![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://movie-recommender-ebfqtajlarzys4ngumfbd5.streamlit.app/)  
 A movie discovery platform that recommends films based on user preferences.
-
-**Features:**  
-- 🎥 Movie recommendations  
-- 🖼️ Poster previews  
-- 🔎 Search movies  
-- ⭐ Popular movie suggestions
-
-**Tech Stack:** Python, Streamlit, TMDB API, Pandas  
 
 ---
 
