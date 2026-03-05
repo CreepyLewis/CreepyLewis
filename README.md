@@ -48,21 +48,9 @@
 
 ![GitHub followers](https://img.shields.io/github/followers/CreepyLewis?style=social)
 ![GitHub stars](https://img.shields.io/github/stars/CreepyLewis?style=social)
-![GitHub repo size](https://img.shields.io/github/repo-size/CreepyLewis/house-vacancy-finder)
-![GitHub repo size](https://img.shields.io/github/repo-size/CreepyLewis/movie-recommender)
 
 ---
 
-## 🚀 My Live Apps
-
-### 🏠 House Vacancy Finder
-[![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://house-vacancy-finder-9d5mhr8gemsts3fqvnxogw.streamlit.app/)  
-A platform that helps users find available rental houses quickly and easily.
----
-
-### 🎬 Movie Recommender
-[![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://movie-recommender-ebfqtajlarzys4ngumfbd5.streamlit.app/)  
-A movie discovery platform that recommends films based on user preferences.
 
 ## 🚀 My Live Apps
 
