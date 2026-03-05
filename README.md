@@ -46,10 +46,10 @@
 
 # 💻 Lewis’ Streamlit Portfolio
 
-![GitHub followers](https://img.shields.io/github/followers/?style=social)
+![GitHub followers](https://img.shields.io/github/followers/CreepyLewis?style=social)
 ![GitHub stars](https://img.shields.io/github/stars/CreepyLewis?style=social)
-![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/house-vacancy-finder)
-![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/movie-recommender)
+![GitHub repo size](https://img.shields.io/github/repo-size/CreepyLewis/house-vacancy-finder)
+![GitHub repo size](https://img.shields.io/github/repo-size/CreepyLewis/movie-recommender)
 
 ---
 
