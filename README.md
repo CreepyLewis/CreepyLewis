@@ -64,6 +64,14 @@ A platform that helps users find available rental houses quickly and easily.
 [![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://movie-recommender-ebfqtajlarzys4ngumfbd5.streamlit.app/)  
 A movie discovery platform that recommends films based on user preferences.
 
+
+## 🚀 My Live Apps
+
+| **🏠 House Vacancy Finder** | **🎬 Movie Recommender** |
+|-----------------------------|--------------------------|
+| [![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://house-vacancy-finder-9d5mhr8gemsts3fqvnxogw.streamlit.app/) | [![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://movie-recommender-ebfqtajlarzys4ngumfbd5.streamlit.app/) |
+| A platform that helps users find available rental houses quickly and easily. | A movie discovery platform that recommends films based on user preferences. |
+
 ---
 
 
