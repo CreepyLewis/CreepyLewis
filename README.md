@@ -33,14 +33,6 @@
 
 </div>
 
----
-
-<!-- 🔥 MATRIX SCAN LINE EFFECT -->
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="100%">
-</p>
-
----
 
 <div align="center">
 
@@ -115,13 +107,5 @@ src="https://streak-stats.demolab.com?user=CreepyLewis&theme=chartreuse-dark&hid
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=CreepyLewis&theme=github-compact&hide_border=true&area=true" />
 
 </div>
-
----
----
-
-<!-- 🔥 MATRIX SCAN LINE EFFECT -->
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="100%">
-</p>
 
 ---
