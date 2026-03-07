@@ -90,8 +90,6 @@ src="https://streak-stats.demolab.com?user=CreepyLewis&theme=chartreuse-dark&hid
 
 ---
 
-
-
 # ⚡ AUTO-UPDATING QUOTE SYSTEM
 
 <div align="center">
