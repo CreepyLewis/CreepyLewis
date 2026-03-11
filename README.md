@@ -79,6 +79,10 @@ src="https://streak-stats.demolab.com?user=CreepyLewis&theme=chartreuse-dark&hid
 
 </div>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CreepyLewis&layout=compact&theme=tokyonight" />
+</p>
+
 ---
 
 # 🌐 Secure Channels
