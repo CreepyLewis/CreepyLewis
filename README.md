@@ -118,6 +118,12 @@ src="https://streak-stats.demolab.com?user=CreepyLewis&theme=chartreuse-dark&hid
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor_Me_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/CreepyLewis)
 
 
+## 🧬 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=CreepyLewis&theme=algolia&no-frame=true&margin-w=10" />
+</p>
+
 # 🐍 Contribution Snake
 
 <div align="center">
