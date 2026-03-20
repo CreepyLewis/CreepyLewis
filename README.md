@@ -121,7 +121,7 @@ src="https://streak-stats.demolab.com?user=CreepyLewis&theme=chartreuse-dark&hid
 ## 🧬 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=CreepyLewis&theme=algolia&no-frame=true&margin-w=10" />
+  <img src="https://github-profile-trophy.vercel.app/?username=CreepyLewis&theme=tokyonight&no-frame=true&row=1&column=7" />
 </p>
 
 # 🐍 Contribution Snake
