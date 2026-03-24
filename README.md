@@ -120,10 +120,9 @@
 
 ### ☕ Fuel The Machine
 
-[!["Buy Me A Coffee"](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/lewiskitho2)
-
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/lewiskitho2) 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor_Me_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/CreepyLewis)
-
+[![Support Me on Binance (ETH)](https://img.shields.io/badge/Support_Me_on_Binance-F0B90B?style=for-the-badge&logo=binance&logoColor=white)](https://www.binance.com/en/pay?recipient=0x6DaBf346cBc485B6D310ce911F7572333d0a44B1)
 
 # 🐍 Contribution Snake
 
