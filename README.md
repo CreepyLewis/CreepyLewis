@@ -73,13 +73,6 @@
 </p>
 
 <p align="center">
-  <!-- Commit / PR / Issue Badges -->
-  <img src="https://img.shields.io/github/commit-activity/y/CreepyLewis?color=00ff00&style=for-the-badge" alt="Commits Badge" />
-  <img src="https://img.shields.io/github/issues-pr/CreepyLewis?color=00ff00&style=for-the-badge" alt="PRs Badge" />
-  <img src="https://img.shields.io/github/issues/CreepyLewis?color=00ff00&style=for-the-badge" alt="Issues Badge" />
-</p>
-
-<p align="center">
   <!-- Top Languages -->
   <img height="150" 
        src="https://github-readme-stats.vercel.app/api/top-langs/?username=CreepyLewis&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=00ff00&text_color=00ff00" />
@@ -90,6 +83,7 @@
   <img width="60%" 
        src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=CreepyLewis&theme=radical" />
 </p>
+
 # 🌐 Secure Channels
 
 <div align="center">
