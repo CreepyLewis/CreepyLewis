@@ -65,23 +65,30 @@
 
 ---
 
-## 🧠 GITHUB CORE METRICS
+# 🧠 GITHUB CORE METRICS
 
-<p align="center">
-  <!-- Contribution Graph (stable) -->
-  <img src="https://ghchart.rshah.org/CreepyLewis" width="80%" alt="GitHub Contributions" />
-</p>
+<div align="center">
 
-<p align="center">
+  <!-- GitHub Stats -->
+  <img height="170" 
+       src="https://github-readme-stats.vercel.app/api?username=CreepyLewis&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=00ff00&icon_color=00ff00&text_color=00ff00&count_private=true&include_all_commits=true" />
+
+  <!-- GitHub Streak -->
+  <img height="170" 
+       src="https://streak-stats.demolab.com?user=CreepyLewis&theme=chartreuse-dark&hide_border=true&background=000000&ring=00ff00&fire=00ff00&currStreakLabel=00ff00" />
+
+</div>
+
+<div align="center" style="margin-top:10px;">
+
   <!-- Top Languages -->
   <img height="150" 
        src="https://github-readme-stats.vercel.app/api/top-langs/?username=CreepyLewis&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=00ff00&text_color=00ff00" />
-</p>
+
+</div>
 
 <p align="center">
-  <!-- Productive Time -->
-  <img width="60%" 
-       src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=CreepyLewis&theme=radical" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=CreepyLewis&theme=radical" width="48%" height="195"/>
 </p>
 
 # 🌐 Secure Channels
