@@ -70,7 +70,7 @@
 
   <!-- GitHub Stats -->
   <img height="170" 
-     src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=CreepyLewis&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=00ff00&icon_color=00ff00&text_color=00ff00&count_private=true&include_all_commits=true&cache_seconds=86400" />
+     src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=CreepyLewis&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=00ff00&icon_color=00ff00&text_color=00ff00&count_private=true&include_all_commits=true&cache_seconds=1800&rank_icon=github" />
   <!-- GitHub Streak -->
   <img height="170" 
        src="https://streak-stats.demolab.com?user=CreepyLewis&theme=chartreuse-dark&hide_border=true&background=000000&ring=00ff00&fire=00ff00&currStreakLabel=00ff00" />
