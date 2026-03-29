@@ -150,3 +150,16 @@ Support my work and help me build more projects:
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+
+</p>
+
+<img src="https://user-images.githubusercontent.com/61057666/169029838-74df663d-2e62-4d77-bdff-b43f7d63f00f.png" width="100%"/>
+
+<br/>
+
+<img align="right" height="250" width="350" alt="GIF" src="https://user-images.githubusercontent.com/115187902/230700872-d5f44b85-56c7-4e27-80a4-6e2db901e60c.gif"/>
+<img align="right" src="spacer.png"/>
+
+<p align="justify">Passionate AI/ML Engineer with hands-on experience building LLM-based systems, RAG chatbots, and intelligent voice agents. Skilled in Python, LangChain, OpenAI, LlamaIndex, and LangGraph. Proven success working on international projects, delivering scalable solutions, and pushing boundaries in real-world AI applications.</p>
+
+<br/><br/>
