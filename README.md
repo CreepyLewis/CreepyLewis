@@ -94,19 +94,6 @@
 ![](https://github-trophies.vercel.app/?username=CreepyLewis&theme=nightowl)
 
 
-</div>
-
-<div align="center" style="margin-top:10px;">
-
-  <!-- Top Languages -->
-  <img height="150" 
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=CreepyLewis&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=00ff00&text_color=00ff00" />
-
-</div>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=CreepyLewis&theme=radical" width="48%" height="195"/>
-</p>
 
 # 🌐 Secure Channels
 
