@@ -74,6 +74,25 @@
 
 ---
 
+# 📊 GitHub Stats
+
+### 🏆 Overview
+![CreepyLewis's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=CreepyLewis&show_icons=true&theme=nightowl)  
+[![GitHub Streak](https://github-readme-stats-fast.vercel.app/api/streak?username=CreepyLewis&theme=nightowl)](https://github.com/CreepyLewis)
+
+### 📂 Top Repositories
+[![Readme Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=CreepyLewis&repo=IMEI-TRACKER&theme=nightowl)](https://github.com/CreepyLewis/IMEI-TRACKER)  
+[![Readme Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=CreepyLewis&repo=Creepy-Movie-Recommendation&theme=nightowl)](https://github.com/CreepyLewis/Creepy-Movie-Recommendation)  
+
+### 💻 Languages
+![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=CreepyLewis&theme=nightowl&size_weight=0.5&count_weight=0.5&langs_count=8&layout=compact)  
+
+### ⏱️ Coding Activity (WakaTime)
+[![CreepyLewis's WakaTime stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=CreepyLewis&theme=nightowl&layout=compact)](https://github.com/CreepyLewis)
+
+### 🏅 GitHub Trophies
+![](https://github-trophies.vercel.app/?username=CreepyLewis&theme=nightowl)
+
 # 🧠 GITHUB CORE METRICS
 
 <div align="center">
