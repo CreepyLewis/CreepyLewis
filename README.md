@@ -46,6 +46,9 @@
   <img src="https://komarev.com/ghpvc/?username=CreepyLewis&label=Profile%20Views&color=0e75b6&style=flat" />
 </p>
 
+
+<img height="250" width="350" alt="GIF" src="https://user-images.githubusercontent.com/115187902/230700872-d5f44b85-56c7-4e27-80a4-6e2db901e60c.gif"/>
+
 # 💻 Lewis’ Streamlit Portfolio
 
 ![GitHub followers](https://img.shields.io/github/followers/CreepyLewis?style=social)
@@ -154,4 +157,4 @@ Support my work and help me build more projects:
 
 <img src="https://user-images.githubusercontent.com/61057666/169029838-74df663d-2e62-4d77-bdff-b43f7d63f00f.png" width="100%"/>
 
-<img height="250" width="350" alt="GIF" src="https://user-images.githubusercontent.com/115187902/230700872-d5f44b85-56c7-4e27-80a4-6e2db901e60c.gif"/>
+<img height="250" width="350" alt="GIF" src="https://user-images.githubusercontent.com/115187902/230700872-
