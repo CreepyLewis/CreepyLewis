@@ -62,9 +62,7 @@
   </tr>
 </table>
 
-# 💻 Lewis’ Streamlit Portfolio
 ---
-
 ## 🚀 My Live Apps
 
 | **🏠 House Vacancy Finder** | **🎬 Movie Recommender** |
