@@ -43,22 +43,26 @@
 ---
 <table width="100%">
   <tr>
-    <!-- Left: Profile stats -->
-    <td align="left" width="50%">
-      <img src="https://komarev.com/ghpvc/?username=CreepyLewis&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
-      <img src="https://img.shields.io/github/followers/CreepyLewis?style=social" alt="Followers"/>
-      <img src="https://img.shields.io/github/stars/CreepyLewis?style=social" alt="Stars"/>
+    <!-- Left column: Profile Views, Followers, Stars -->
+    <td align="left" width="50%" valign="top">
+      <p>
+        <img src="https://komarev.com/ghpvc/?username=CreepyLewis&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
+      </p>
+      <p>
+        <img src="https://img.shields.io/github/followers/CreepyLewis?style=social" alt="Followers"/>
+      </p>
+      <p>
+        <img src="https://img.shields.io/github/stars/CreepyLewis?style=social" alt="Stars"/>
+      </p>
     </td>
-<!-- Right: GIF -->
-    <td align="right" width="50%">
+    <!-- Right column: GIF -->
+    <td align="right" width="50%" valign="top">
       <img height="250" width="350" alt="GIF" src="https://user-images.githubusercontent.com/115187902/230700872-d5f44b85-56c7-4e27-80a4-6e2db901e60c.gif"/>
     </td>
   </tr>
 </table>
 
 # 💻 Lewis’ Streamlit Portfolio
-
----
 ---
 
 ## 🚀 My Live Apps
