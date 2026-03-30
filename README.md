@@ -41,19 +41,25 @@
 </div>
 
 ---
+<table width="100%">
+  <tr>
+    <!-- Left: Profile stats -->
+    <td align="left" width="50%">
+      <img src="https://komarev.com/ghpvc/?username=CreepyLewis&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
+      <img src="https://img.shields.io/github/followers/CreepyLewis?style=social" alt="Followers"/>
+      <img src="https://img.shields.io/github/stars/CreepyLewis?style=social" alt="Stars"/>
+    </td>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=CreepyLewis&label=Profile%20Views&color=0e75b6&style=flat" />
-</p>
-
-
-<img height="250" width="350" alt="GIF" src="https://user-images.githubusercontent.com/115187902/230700872-d5f44b85-56c7-4e27-80a4-6e2db901e60c.gif"/>
+    <!-- Right: GIF -->
+    <td align="right" width="50%">
+      <img height="250" width="350" alt="GIF" src="https://user-images.githubusercontent.com/115187902/230700872-d5f44b85-56c7-4e27-80a4-6e2db901e60c.gif"/>
+    </td>
+  </tr>
+</table>
 
 # 💻 Lewis’ Streamlit Portfolio
 
-![GitHub followers](https://img.shields.io/github/followers/CreepyLewis?style=social)
-![GitHub stars](https://img.shields.io/github/stars/CreepyLewis?style=social)
-
+---
 ---
 
 ## 🚀 My Live Apps
