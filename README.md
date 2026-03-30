@@ -85,7 +85,7 @@
 ![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=CreepyLewis&theme=nightowl&size_weight=0.5&count_weight=0.5&langs_count=8&layout=compact)  
 
 ### ⏱️ Coding Activity (WakaTime)
-[![CreepyLewis's WakaTime stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=CreepyLewis&theme=nightowl&layout=compact)](https://github.com/CreepyLewis)
+[![CreepyLewis's WakaTime stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=CreepyLewis&theme=nightowl&layout=compact)](https://wakatime.com/@CreepyLewis)
 
 ### 🏅 GitHub Trophies
 ![](https://github-trophies.vercel.app/?username=CreepyLewis&theme=nightowl)
