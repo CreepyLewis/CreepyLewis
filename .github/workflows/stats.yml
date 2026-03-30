@@ -8,7 +8,6 @@ from pathlib import Path
 # =============================
 # CONFIGURATION
 # =============================
-
 DEFAULT_USERNAME = "CreepyLewis"
 CACHE_FILE = "stats/cache.json"
 CACHE_DAYS = 1  # Cache duration in days
@@ -33,7 +32,6 @@ THEMES = {
 # =============================
 # ARGUMENT PARSER
 # =============================
-
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Generate GitHub contribution stats SVG")
     parser.add_argument("--username", default=DEFAULT_USERNAME)
@@ -47,15 +45,14 @@ def parse_arguments():
 # =============================
 # FETCH DATA (WITH CACHE)
 # =============================
-
 def fetch_github_data(username, token, use_cache=True):
+    os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
 
     # Try cache first
     if use_cache and Path(CACHE_FILE).exists():
         try:
             with open(CACHE_FILE, "r") as f:
                 cache = json.load(f)
-
             cache_date = datetime.fromisoformat(cache["date"])
             if (
                 (datetime.now(timezone.utc) - cache_date).days < CACHE_DAYS
@@ -64,7 +61,7 @@ def fetch_github_data(username, token, use_cache=True):
                 print("Using cached data")
                 return cache["days"]
         except Exception:
-            pass  # Corrupted cache -> ignore
+            pass  # Ignore corrupted cache
 
     print("Fetching fresh data from GitHub API")
 
@@ -90,26 +87,24 @@ def fetch_github_data(username, token, use_cache=True):
     }
     """
 
-    response = requests.post(
-        "https://api.github.com/graphql",
-        json={"query": query, "variables": {"login": username}},
-        headers=headers,
-        timeout=15
-    )
+    try:
+        response = requests.post(
+            "https://api.github.com/graphql",
+            json={"query": query, "variables": {"login": username}},
+            headers=headers,
+            timeout=15
+        )
+        response.raise_for_status()
+        data = response.json()
+        if "errors" in data:
+            raise Exception(data["errors"])
+    except Exception as e:
+        raise Exception(f"Failed to fetch GitHub data: {e}")
 
-    if response.status_code != 200:
-        raise Exception(f"GitHub API returned {response.status_code}")
-
-    data = response.json()
-
-    if "errors" in data:
-        raise Exception(data["errors"])
-
-    weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
-    days = [day for week in weeks for day in week["contributionDays"]]
+    weeks = data.get("data", {}).get("user", {}).get("contributionsCollection", {}).get("contributionCalendar", {}).get("weeks", [])
+    days = [day for week in weeks for day in week.get("contributionDays", [])]
 
     # Save cache
-    os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
     with open(CACHE_FILE, "w") as f:
         json.dump({
             "date": datetime.now(timezone.utc).isoformat(),
@@ -122,24 +117,16 @@ def fetch_github_data(username, token, use_cache=True):
 # =============================
 # CALCULATE STATS
 # =============================
-
 def calculate_stats(days):
-
     today = datetime.now(timezone.utc).date()
+    valid_days = [day for day in days if datetime.strptime(day["date"], "%Y-%m-%d").date() <= today]
 
-    # Remove future dates (safety)
-    valid_days = []
-    for day in days:
-        day_date = datetime.strptime(day["date"], "%Y-%m-%d").date()
-        if day_date <= today:
-            valid_days.append(day)
-
-    total = sum(day["contributionCount"] for day in valid_days)
+    total = sum(day.get("contributionCount", 0) for day in valid_days)
 
     # Current streak
     current_streak = 0
     for day in reversed(valid_days):
-        if day["contributionCount"] > 0:
+        if day.get("contributionCount", 0) > 0:
             current_streak += 1
         else:
             break
@@ -148,7 +135,7 @@ def calculate_stats(days):
     longest_streak = 0
     temp = 0
     for day in valid_days:
-        if day["contributionCount"] > 0:
+        if day.get("contributionCount", 0) > 0:
             temp += 1
             longest_streak = max(longest_streak, temp)
         else:
@@ -159,18 +146,14 @@ def calculate_stats(days):
 # =============================
 # GENERATE DOTS
 # =============================
-
 def generate_contribution_dots(days, theme, max_dots=53):
-
     dots = ""
     x_start = 30
     y_pos = 175
-
     recent_days = days[-max_dots:]
 
     for i, day in enumerate(recent_days):
-        count = day["contributionCount"]
-
+        count = day.get("contributionCount", 0)
         if count == 0:
             color_idx = 0
         elif count < 3:
@@ -190,17 +173,13 @@ def generate_contribution_dots(days, theme, max_dots=53):
             <title>{date}: {count} contribution{"s" if count != 1 else ""}</title>
         </rect>
         """
-
     return dots
 
 # =============================
 # ERROR SVG
 # =============================
-
 def create_error_svg(message, args):
-
     theme = THEMES[args.theme]
-
     return f"""
     <svg width="{args.width}" height="{args.height}" xmlns="http://www.w3.org/2000/svg">
         <rect width="100%" height="100%" rx="16" fill="{theme['bg']}"/>
@@ -216,25 +195,31 @@ def create_error_svg(message, args):
 # =============================
 # MAIN
 # =============================
-
 def main():
-
     args = parse_arguments()
     token = os.environ.get("GH_TOKEN")
 
+    # Ensure output folder exists
+    os.makedirs(os.path.dirname(args.output), exist_ok=True)
+
     if not token:
         print("Error: GH_TOKEN environment variable not found.")
+        svg = create_error_svg("GH_TOKEN not found", args)
+        with open(args.output, "w") as f:
+            f.write(svg)
         return
 
     try:
         days = fetch_github_data(args.username, token, use_cache=not args.no_cache)
+        if not days:
+            raise Exception("No contribution data found")
 
         total, current_streak, longest_streak, valid_days = calculate_stats(days)
 
-        start_date = datetime.strptime(valid_days[0]["date"], "%Y-%m-%d")
-        end_date = datetime.strptime(valid_days[-1]["date"], "%Y-%m-%d")
-
+        start_date = datetime.strptime(valid_days[0]["date"], "%Y-%m-%d") if valid_days else datetime.now()
+        end_date = datetime.strptime(valid_days[-1]["date"], "%Y-%m-%d") if valid_days else datetime.now()
         date_range = f"{start_date.strftime('%b %d, %Y')} – {end_date.strftime('%b %d, %Y')}"
+
         theme = THEMES[args.theme]
         dots = generate_contribution_dots(valid_days, theme)
 
@@ -288,7 +273,7 @@ Updated: {datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")}
         print("Error:", e)
         svg = create_error_svg(e, args)
 
-    os.makedirs(os.path.dirname(args.output), exist_ok=True)
+    # Write final SVG
     with open(args.output, "w") as f:
         f.write(svg)
 
