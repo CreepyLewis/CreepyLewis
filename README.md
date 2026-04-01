@@ -64,7 +64,6 @@
 
 ---
 ## 🚀 My Live Apps
-
 | **🏠 House Vacancy Finder** | **🎬 Movie Recommender** |
 |-----------------------------|--------------------------|
 | [![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://house-vacancy-finder.streamlit.app/) | [![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://creepy-movie-recommender.streamlit.app/) |
@@ -72,10 +71,10 @@
 | A platform that helps users find available rental houses quickly and easily. | A movie discovery platform that recommends films based on user preferences. |
 | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) ![TMDB](https://img.shields.io/badge/TMDB-01D277?style=flat&logo=tmdb&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) |
 
-| **📊 Kenya Data Visualization App** | **🤖 AI App Project Analyzer** |
-|------------------------------------|-------------------------------|
+| **📊 Kenya Data Visualization Hub** | **🤖 AI GitHub Project Analyzer** |
+|------------------------------------|---------------------------------|
 | [![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://kenya-data-visualization-app.streamlit.app/) | [![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://ai-app-project-analyzer.streamlit.app/) |
-| ![Repo Size](https://img.shields.io/github/repo-size/CreepyLewis/kenya-data-visualization-app) | ![Repo Size](https://img.shields.io/github/repo-size/CreepyLewis/ai-app-project-analyzer) |
+| [![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github&logoColor=white)](https://github.com/CreepyLewis/kenya-data-visualization-hub) | [![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github&logoColor=white)](https://github.com/CreepyLewis/ai-github-project-analyzer) |
 | Visualizes Kenyan datasets with interactive charts and insights. | Analyzes and evaluates AI/ML projects with insights and recommendations. |
 | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) ![AI](https://img.shields.io/badge/AI-Powered-blue) |
 ---
