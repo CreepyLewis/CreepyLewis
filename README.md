@@ -13,6 +13,160 @@
              repeatCount="indefinite"/>
   </text>
 
+
+  <div align="center">
+
+<!-- 🖤 MATRIX STYLE HEADER -->
+<svg width="100%" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="200" fill="black"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        fill="#00ff41" font-size="48" font-family="monospace">
+    CreepyLewis
+    <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
+  </text>
+  <rect x="0" y="-10" width="800" height="10" fill="#00ff41" opacity="0.3">
+    <animate attributeName="y" from="-10" to="200" dur="3s" repeatCount="indefinite"/>
+  </rect>
+</svg>
+
+</div>
+
+<div align="center">
+
+<!-- 💎 CAPSULE BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00ff41&height=200&section=header&text=CreepyLewis&fontColor=00ff41&fontSize=60&animation=fadeIn&fontAlignY=35&desc=System%20Online&descAlignY=55&descAlign=50" />
+
+</div>
+
+<div align="center">
+
+<!-- ⚡ TERMINAL TYPING EFFECT -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=800&gradient=00FF41,FF00FF,00FFFF,00FF41&lines=Accessing+Mainframe...;Full+Stack+Developer;AI+%7C+Automation+%7C+Systems;Main+Character,+Low+Budget;System+Status:+OPERATIONAL" />
+
+</div>
+
+---
+
+## 🚀 Live Apps & Projects
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="50%">
+**🏠 House Vacancy Finder** <br>
+[![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://house-vacancy-finder.streamlit.app/)  
+[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github&logoColor=white)](https://github.com/CreepyLewis/house-vacancy-finder)  
+A platform that helps users find available rental houses quickly and easily. <br>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+</td>
+<td align="center" width="50%">
+**🎬 Movie Recommender** <br>
+[![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://creepy-movie-recommender.streamlit.app/)  
+[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github&logoColor=white)](https://github.com/CreepyLewis/movie-recommender)  
+A movie discovery platform that recommends films based on user preferences. <br>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![TMDB](https://img.shields.io/badge/TMDB-01D277?style=flat&logo=tmdb&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+**📊 Kenya Data Visualization Hub** <br>
+[![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://kenya-data-visualization-app.streamlit.app/)  
+[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github&logoColor=white)](https://github.com/CreepyLewis/kenya-data-visualization-hub)  
+Visualizes Kenyan datasets with interactive charts and insights. <br>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
+</td>
+<td align="center" width="50%">
+**🤖 AI GitHub Project Analyzer** <br>
+[![Open App](https://img.shields.io/badge/Open-App-brightgreen)](https://ai-app-project-analyzer.streamlit.app/)  
+[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github&logoColor=white)](https://github.com/CreepyLewis/ai-github-project-analyzer)  
+Analyzes and evaluates AI/ML projects with insights and recommendations. <br>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![AI](https://img.shields.io/badge/AI-Powered-blue)
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 📊 GitHub Stats & Languages
+
+<div align="center">
+
+### 🏆 Overview
+![CreepyLewis's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=CreepyLewis&show_icons=true&theme=nightowl)  
+[![GitHub Streak](https://github-readme-stats-fast.vercel.app/api/streak?username=CreepyLewis&theme=nightowl)](https://github.com/CreepyLewis)
+
+### 💻 Top Languages
+![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=CreepyLewis&theme=nightowl&size_weight=0.5&count_weight=0.5&langs_count=8&layout=compact)  
+
+### 🏅 GitHub Trophies
+![](https://github-trophies.vercel.app/?username=CreepyLewis&theme=nightowl)
+
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/CreepyLewis)
+[![X](https://img.shields.io/badge/X-000000?logo=x&logoColor=white)](https://x.com/CreepyLewis)
+[![Spotify](https://img.shields.io/badge/Spotify-1DB954?logo=spotify&logoColor=white)](https://open.spotify.com/user/creepylewis)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://instagram.com/lewis.karl7)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?logo=tiktok&logoColor=white)](https://tiktok.com/@lewis.karl7)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white)](https://youtube.com/@LEWISKITHOME-I9y)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/lewis-kithome)
+
+</div>
+
+---
+
+## ⚡ Auto-Updating Quote
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
+
+</div>
+
+---
+
+## ☕ Support My Work
+
+<div align="center">
+
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/ncp/payment/R6KW8ZE257BYU)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/lewiskitho2)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/CreepyLewis)
+[![Binance Pay (ETH)](https://img.shields.io/badge/Binance_Pay-ETH-F0B90B?style=for-the-badge&logo=binance&logoColor=white)](https://www.binance.com/en/pay?recipient=0x6DaBf346cBc485B6D310ce911F7572333d0a44B1)
+
+</div>
+
+---
+
+## 🛠 Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)
+![TMDB](https://img.shields.io/badge/TMDB-01D277?logo=tmdb&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+![AI](https://img.shields.io/badge/AI-Powered-blue)
+
+
   <!-- Scan Line -->
   <rect x="0" y="-10" width="800" height="10" fill="#00ff41" opacity="0.3">
     <animate attributeName="y"
