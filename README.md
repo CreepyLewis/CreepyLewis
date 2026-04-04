@@ -93,7 +93,6 @@
 ![](https://github-trophies.vercel.app/?username=CreepyLewis&theme=nightowl)
 
 # 🌐 Secure Channels
-
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/CreepyLewis)
