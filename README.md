@@ -30,7 +30,6 @@
 
 <!-- 💎 CUSTOM ANIMATED SVG BANNER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00ff41&height=200&section=header&text=CreepyLewis&fontColor=00ff41&fontSize=60&animation=fadeIn&fontAlignY=35&desc=System%20Online&descAlignY=55&descAlign=50" />
-
 </div>
 
 <div align="center">
