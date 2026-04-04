@@ -78,6 +78,8 @@
 | [![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github&logoColor=white)](https://github.com/CreepyLewis/kenya-data-visualization-hub) | [![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github&logoColor=white)](https://github.com/CreepyLewis/ai-github-project-analyzer) |
 | Visualizes Kenyan datasets with interactive charts and insights. | Analyzes and evaluates AI/ML projects with insights and recommendations. |
 | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) ![AI](https://img.shields.io/badge/AI-Powered-blue) |
+</div>
+
 ---
 
 # 📊 GitHub Stats
@@ -146,7 +148,6 @@ Support my work and help me build more projects:
 
 ---
 ## 🛠 Tech Stack
-
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
