@@ -93,7 +93,10 @@
 ### 🏅 GitHub Trophies
 ![](https://github-trophies.vercel.app/?username=CreepyLewis&theme=nightowl)
 
+
 </div>
+
+---
 
 # 🌐 Secure Channels
 <div align="center">
