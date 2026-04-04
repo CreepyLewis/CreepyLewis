@@ -132,6 +132,10 @@ Support my work and help me build more projects:
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/CreepyLewis)
 [![Binance Pay (ETH)](https://img.shields.io/badge/Binance_Pay-ETH-F0B90B?style=for-the-badge&logo=binance&logoColor=white)](https://www.binance.com/en/pay?recipient=0x6DaBf346cBc485B6D310ce911F7572333d0a44B1)
 
+</div>
+
+---
+
 # 🐍 Contribution Snake
 
 <div align="center">
