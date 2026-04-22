@@ -162,14 +162,8 @@ Support my work and help me build more projects:
 </div>
 
 ---
-<h2 align="center">🎶 Spotify Vibes</h2>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="120" />
-</p>
-
 <p align="center">
   <a href="https://open.spotify.com/user/creepylewis">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=creepylewis&cover_image=true&theme=novatorem&show_offline=true&background_color=0d1117&bar_color=1DB954&bar_color_cover=true" />
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31rgt7qptsff3ktwr52mccl5fpby&cover_image=true&theme=novatorem&show_offline=true&background_color=0d1117&bar_color=1DB954&bar_color_cover=true" />
   </a>
 </p>
