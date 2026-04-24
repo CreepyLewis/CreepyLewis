@@ -47,7 +47,7 @@
   <tr>
     <!-- Left column -->
     <td align="left" width="50%" valign="top"> 
-      [![wakatime](https://wakatime.com/badge/user/965d3a19-7d06-48f7-b33b-de8cc987db01.svg)](https://wakatime.com/@965d3a19-7d06-48f7-b33b-de8cc987db01)
+      <a href="https://wakatime.com/@965d3a19-7d06-48f7-b33b-de8cc987db01"><img src="https://wakatime.com/badge/user/965d3a19-7d06-48f7-b33b-de8cc987db01.svg" alt="Total time coded since Feb 19 2026" /></a>
       <p>
         <img src="https://komarev.com/ghpvc/?username=CreepyLewis&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
       </p>
