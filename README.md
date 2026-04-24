@@ -50,8 +50,8 @@
       <!-- WakaTime -->
       <h3>⏱️ Weekly Coding Stats</h3>
       <p>
-        <!--START_SECTION:waka-->
-        <!--END_SECTION:waka-->
+        <--START_SECTION:waka-->
+        <--END_SECTION:waka-->
       </p>
       <!-- Profile stats -->
       <p>
