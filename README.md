@@ -49,11 +49,6 @@
     <!-- Left column -->
     <td align="left" width="50%" valign="top">
 
-### ⏱️ Weekly Coding Stats
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
 <img src="https://komarev.com/ghpvc/?username=CreepyLewis&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
 
 <img src="https://img.shields.io/github/followers/CreepyLewis?style=social" alt="Followers"/>
@@ -69,6 +64,11 @@
 </table>
 
 ---
+### ⏱️ Weekly Coding Stats
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 
 ## 🚀 My Live Apps
 
