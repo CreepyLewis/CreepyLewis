@@ -45,8 +45,15 @@
 ---
 <table width="100%">
   <tr>
-    <!-- Left column: Profile Views, Followers, Stars -->
+    <!-- Left column -->
     <td align="left" width="50%" valign="top">
+      <!-- WakaTime -->
+      <h3>⏱️ Weekly Coding Stats</h3>
+      <p>
+        <!--START_SECTION:waka-->
+        <!--END_SECTION:waka-->
+      </p>
+      <!-- Profile stats -->
       <p>
         <img src="https://komarev.com/ghpvc/?username=CreepyLewis&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
       </p>
@@ -63,9 +70,6 @@
     </td>
   </tr>
 </table>
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
 
 ---
 
