@@ -49,11 +49,14 @@
     <!-- Left column -->
     <td align="left" width="50%" valign="top">
 
-<img src="https://komarev.com/ghpvc/?username=CreepyLewis&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
+<h3>⏱️ Weekly Coding Stats</h3>
 
-<img src="https://img.shields.io/github/followers/CreepyLewis?style=social" alt="Followers"/>
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
-<img src="https://img.shields.io/github/stars/CreepyLewis?style=social" alt="Stars"/>
+<img src="https://komarev.com/ghpvc/?username=CreepyLewis&label=Profile%20Views&color=0e75b6&style=flat"/>
+<img src="https://img.shields.io/github/followers/CreepyLewis?style=social"/>
+<img src="https://img.shields.io/github/stars/CreepyLewis?style=social"/>
 
 </td>
     <!-- Right column: GIF -->
