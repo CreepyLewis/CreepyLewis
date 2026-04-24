@@ -48,30 +48,29 @@
   <tr>
     <!-- Left column -->
     <td align="left" width="50%" valign="top">
-
-<h3>⏱️ Weekly Coding Stats</h3>
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
-<img src="https://komarev.com/ghpvc/?username=CreepyLewis&label=Profile%20Views&color=0e75b6&style=flat"/>
-<img src="https://img.shields.io/github/followers/CreepyLewis?style=social"/>
-<img src="https://img.shields.io/github/stars/CreepyLewis?style=social"/>
-
-</td>
+      <!-- WakaTime -->
+      <h3>⏱️ Weekly Coding Stats</h3>
+      <p>
+        <!--START_SECTION:waka-->
+        <!--END_SECTION:waka-->
+      </p>
+      <!-- Profile stats -->
+      <p>
+        <img src="https://komarev.com/ghpvc/?username=CreepyLewis&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
+      </p>
+      <p>
+        <img src="https://img.shields.io/github/followers/CreepyLewis?style=social" alt="Followers"/>
+      </p>
+      <p>
+        <img src="https://img.shields.io/github/stars/CreepyLewis?style=social" alt="Stars"/>
+      </p>
+    </td>
     <!-- Right column: GIF -->
     <td align="right" width="50%" valign="top">
       <img alt="GIF" src="https://user-images.githubusercontent.com/115187902/230700872-d5f44b85-56c7-4e27-80a4-6e2db901e60c.gif"/>
     </td>
   </tr>
 </table>
-
----
-### ⏱️ Weekly Coding Stats
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
 
 ## 🚀 My Live Apps
 
