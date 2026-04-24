@@ -46,13 +46,8 @@
 <table width="100%">
   <tr>
     <!-- Left column -->
-    <td align="left" width="50%" valign="top">
-      <!-- WakaTime -->
-      <h3>⏱️ Weekly Coding Stats</h3>
-      <!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-      <!-- Profile stats -->
-      <p>
+    <td align="left" width="50%" valign="top">     
+     <p>
         <img src="https://komarev.com/ghpvc/?username=CreepyLewis&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
       </p>
       <p>
@@ -172,3 +167,7 @@ Support my work and help me build more projects:
     <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31rgt7qptsff3ktwr52mccl5fpby&cover_image=true&theme=novatorem&show_offline=true&background_color=0d1117&bar_color=1DB954&bar_color_cover=true" />
   </a>
 </p>
+      <!-- WakaTime -->
+      <h3>⏱️ Weekly Coding Stats</h3>
+      <!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
