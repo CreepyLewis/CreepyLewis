@@ -52,9 +52,7 @@
       <h3>⏱️ Weekly Coding Stats</h3>
       <p>
         <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%20hr%2026%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -128,6 +126,7 @@ CSS                      1 repo              ██░░░░░░░░░�
 
  Last Updated on 24/04/2026 07:29:02 UTC
 <!--END_SECTION:waka-->
+f
       </p>
       <!-- Profile stats -->
       <p>
