@@ -51,7 +51,82 @@
       <h3>⏱️ Weekly Coding Stats</h3>
       <p>
         <!--START_SECTION:waka-->
-        <!--END_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-1%20hr%2026%20mins-blue?style=flat)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
+
+**🐱 My GitHub Data** 
+
+> 📦 ? Used in GitHub's Storage 
+ > 
+> 🏆 1,601 Contributions in the Year 2026
+ > 
+> 💼 Opted to Hire
+ > 
+> 📜 22 Public Repositories 
+ > 
+> 🔑 0 Private Repositories 
+ > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                165 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.80 % 
+🌆 Daytime                503 commits         ███████░░░░░░░░░░░░░░░░░░   29.87 % 
+🌃 Evening                786 commits         ████████████░░░░░░░░░░░░░   46.67 % 
+🌙 Night                  230 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.66 % 
+```
+📅 **I'm Most Productive on Tuesday** 
+
+```text
+Monday                   212 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.59 % 
+Tuesday                  440 commits         ███████░░░░░░░░░░░░░░░░░░   26.13 % 
+Wednesday                231 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.72 % 
+Thursday                 253 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.02 % 
+Friday                   212 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.59 % 
+Saturday                 193 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.46 % 
+Sunday                   143 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.49 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Africa/Nairobi
+
+💬 Programming Languages: 
+Python                   28 mins             ████████████████░░░░░░░░░   64.69 % 
+Bash                     9 mins              █████░░░░░░░░░░░░░░░░░░░░   21.77 % 
+TOML                     5 mins              ███░░░░░░░░░░░░░░░░░░░░░░   13.12 % 
+Git                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.42 % 
+
+🔥 Editors: 
+VS Code                  43 mins             █████████████████████████   100.00 % 
+
+🐱‍💻 Projects: 
+linkup-dating-app        43 mins             █████████████████████████   100.00 % 
+
+💻 Operating System: 
+Windows                  43 mins             █████████████████████████   100.00 % 
+```
+
+**I Mostly Code in Python** 
+
+```text
+Python                   8 repos             ███████████████░░░░░░░░░░   61.54 % 
+HTML                     3 repos             ██████░░░░░░░░░░░░░░░░░░░   23.08 % 
+JavaScript               1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   07.69 % 
+CSS                      1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   07.69 % 
+```
+
+
+
+**Timeline**
+
+![Lines of Code chart](https://raw.githubusercontent.com/CreepyLewis/CreepyLewis/main/assets/bar_graph.png)
+
+
+ Last Updated on 24/04/2026 07:03:44 UTC
+<!--END_SECTION:waka-->
       </p>
       <!-- Profile stats -->
       <p>
