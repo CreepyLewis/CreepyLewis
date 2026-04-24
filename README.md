@@ -171,22 +171,8 @@ Support my work and help me build more projects:
       <!-- WakaTime -->
       <h3>⏱️ Weekly Coding Stats</h3>
       <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%20hr%2026%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
-**🐱 My GitHub Data** 
-
-> 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 1,601 Contributions in the Year 2026
- > 
-> 💼 Opted to Hire
- > 
-> 📜 22 Public Repositories 
- > 
-> 🔑 0 Private Repositories 
- > 
 **I'm a Night 🦉** 
 
 ```text
@@ -237,7 +223,6 @@ HTML                     3 repos             ██████░░░░░�
 JavaScript               1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   07.69 % 
 CSS                      1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   07.69 % 
 ```
-
 
 
 **Timeline**
