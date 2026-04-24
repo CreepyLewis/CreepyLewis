@@ -43,13 +43,14 @@
 </div>
 
 ---
-
 <table width="100%">
   <tr>
     <!-- Left column -->
     <td align="left" width="50%" valign="top">
-yeah
-      </p>
+      <!-- WakaTime -->
+      <h3>⏱️ Weekly Coding Stats</h3>
+      <!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
       <!-- Profile stats -->
       <p>
         <img src="https://komarev.com/ghpvc/?username=CreepyLewis&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
@@ -67,6 +68,8 @@ yeah
     </td>
   </tr>
 </table>
+
+---
 
 ## 🚀 My Live Apps
 
@@ -168,83 +171,4 @@ Support my work and help me build more projects:
   <a href="https://open.spotify.com/user/creepylewis">
     <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31rgt7qptsff3ktwr52mccl5fpby&cover_image=true&theme=novatorem&show_offline=true&background_color=0d1117&bar_color=1DB954&bar_color_cover=true" />
   </a>
-  
 </p>
-      <!-- WakaTime -->
-      <h3>⏱️ Weekly Coding Stats</h3>
-      <p>
-        <!--START_SECTION:waka-->
-
-
-**🐱 My GitHub Data** 
-
-> 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 1,601 Contributions in the Year 2026
- > 
-> 💼 Opted to Hire
- > 
-> 📜 22 Public Repositories 
- > 
-> 🔑 0 Private Repositories 
- > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                170 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.07 % 
-🌆 Daytime                503 commits         ███████░░░░░░░░░░░░░░░░░░   29.78 % 
-🌃 Evening                786 commits         ████████████░░░░░░░░░░░░░   46.54 % 
-🌙 Night                  230 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.62 % 
-```
-📅 **I'm Most Productive on Tuesday** 
-
-```text
-Monday                   212 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.55 % 
-Tuesday                  440 commits         ███████░░░░░░░░░░░░░░░░░░   26.05 % 
-Wednesday                231 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.68 % 
-Thursday                 253 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.98 % 
-Friday                   217 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.85 % 
-Saturday                 193 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.43 % 
-Sunday                   143 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.47 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Africa/Nairobi
-
-💬 Programming Languages: 
-Python                   28 mins             ████████████████░░░░░░░░░   64.69 % 
-Bash                     9 mins              █████░░░░░░░░░░░░░░░░░░░░   21.77 % 
-TOML                     5 mins              ███░░░░░░░░░░░░░░░░░░░░░░   13.12 % 
-Git                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.42 % 
-
-🔥 Editors: 
-VS Code                  43 mins             █████████████████████████   100.00 % 
-
-🐱‍💻 Projects: 
-linkup-dating-app        43 mins             █████████████████████████   100.00 % 
-
-💻 Operating System: 
-Windows                  43 mins             █████████████████████████   100.00 % 
-```
-
-**I Mostly Code in Python** 
-
-```text
-Python                   8 repos             ███████████████░░░░░░░░░░   61.54 % 
-HTML                     3 repos             ██████░░░░░░░░░░░░░░░░░░░   23.08 % 
-JavaScript               1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   07.69 % 
-CSS                      1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   07.69 % 
-```
-
-
-
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/CreepyLewis/CreepyLewis/main/assets/bar_graph.png)
-
-
- Last Updated on 24/04/2026 07:29:02 UTC
-<!--END_SECTION:waka-->
