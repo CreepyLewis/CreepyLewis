@@ -120,6 +120,60 @@
 
 </div>
 
+# 🔐 Secure Channels
+
+<p align="center">
+  <b>Safe • Direct • Verified Communication Channels</b><br>
+  Feel free to reach out through any of the platforms below 👇
+</p>
+
+<div align="center">
+
+<!-- Primary Contact -->
+
+<a href="https://wa.me/254712533278?text=Hi%20Lewis%2C%20I%20found%20you%20on%20GitHub" target="_blank">
+  <img src="https://img.shields.io/badge/WhatsApp-Primary%20Contact-25D366?logo=whatsapp&logoColor=white&style=for-the-badge" />
+</a>
+
+<br><br>
+
+<!-- Social & Professional -->
+
+<a href="https://github.com/CreepyLewis" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" />
+</a>
+<a href="https://linkedin.com/in/lewis-kithome" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" />
+</a>
+<a href="https://x.com/CreepyLewis" target="_blank">
+  <img src="https://img.shields.io/badge/X-000000?logo=x&logoColor=white&style=for-the-badge" />
+</a>
+
+<br><br>
+
+<!-- Creative & Social -->
+
+<a href="https://instagram.com/lewis.karl7" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge" />
+</a>
+<a href="https://tiktok.com/@lewis.karl7" target="_blank">
+  <img src="https://img.shields.io/badge/TikTok-000000?logo=tiktok&logoColor=white&style=for-the-badge" />
+</a>
+<a href="https://youtube.com/@LEWISKITHOME-I9y" target="_blank">
+  <img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white&style=for-the-badge" />
+</a>
+<a href="https://open.spotify.com/user/creepylewis" target="_blank">
+  <img src="https://img.shields.io/badge/Spotify-1DB954?logo=spotify&logoColor=white&style=for-the-badge" />
+</a>
+
+</div>
+
+---
+
+<p align="center">
+  ⚠️ <i>For security reasons, always confirm identity before making any transactions.</i>
+</p>
+
 ---
 
 # ⚡ AUTO-UPDATING QUOTE SYSTEM
