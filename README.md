@@ -154,12 +154,6 @@
 
 ---
 
-<p align="center">
-  ⚠️ <i>For security reasons, always confirm identity before making any transactions.</i>
-</p>
-
----
-
 # ⚡ AUTO-UPDATING QUOTE SYSTEM
 
 <div align="center">
