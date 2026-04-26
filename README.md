@@ -106,8 +106,6 @@
 
 ---
 
-
-
 # 🔐 Secure Channels
 
 <p align="center">
