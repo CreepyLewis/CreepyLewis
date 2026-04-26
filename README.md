@@ -116,7 +116,7 @@
 [![TikTok](https://img.shields.io/badge/TikTok-000000?logo=tiktok&logoColor=white)](https://tiktok.com/@lewis.karl7)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white)](https://youtube.com/@LEWISKITHOME-I9y)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/lewis-kithome)
-<a href="https://wa.me/254712533278?text=Hi%20Lewis%2C%20I%20found%20you%20on%20GitHub" target="_blank">
+<img src="https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white&style=for-the-badge" />
 
 </div>
 
