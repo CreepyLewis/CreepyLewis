@@ -124,7 +124,7 @@
 
 <p align="center">
   <b>Safe • Direct • Verified Communication Channels</b><br>
-  Feel free to reach out through any of the platforms below 👇
+  
 </p>
 
 <div align="center">
@@ -134,7 +134,6 @@
 <a href="https://wa.me/254712533278?text=Hi%20Lewis%2C%20I%20found%20you%20on%20GitHub" target="_blank">
   <img src="https://img.shields.io/badge/WhatsApp-Primary%20Contact-25D366?logo=whatsapp&logoColor=white&style=for-the-badge" />
 </a>
-
 <br><br>
 
 <!-- Social & Professional -->
@@ -148,7 +147,6 @@
 <a href="https://x.com/CreepyLewis" target="_blank">
   <img src="https://img.shields.io/badge/X-000000?logo=x&logoColor=white&style=for-the-badge" />
 </a>
-
 <br><br>
 
 <!-- Creative & Social -->
