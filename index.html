@@ -1,1 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CreepyLewis — Full Stack Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green: #00ff41;
+    --green-dim: #00cc33;
+    --green-dark: #003300;
+    --green-glow: rgba(0,255,65,0.15);
+    --bg: #000000;
+    --bg2: #050f05;
+    --bg3: #0a1a0a;
+    --text: #00ff41;
+    --text-dim: #00aa2a;
+    --text-muted: #005510;
+    --border: rgba(0,255,65,0.2);
+    --border-bright: rgba(0,255,65,0.5);
+    --font-mono: 'Share Tech Mono', monospace;
+    --font-main: 'Rajdhani', sans-serif;
+  }
 
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-main);
+    overflow-x: hidden;
+    cursor: crosshair;
+  }
+
+  /* MATRIX RAIN CANVAS */
+  #matrix-canvas {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 0;
+    opacity: 0.04;
+    pointer-events: none;
+  }
+
+  /* SCANLINE OVERLAY */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0,0,0,0.03) 2px,
+      rgba(0,0,0,0.03) 4px
+    );
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(0,0,0,0.9);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+  }
+
+  .nav-logo {
+    font-family: var(--font-mono);
+    font-size: 1.2rem;
+    color: var(--green);
+    text-decoration: none;
+  }
+
+  .nav-logo span { color: var(--text-dim); }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    transition: color 0.2s;
+    text-transform: uppercase;
+  }
+
+  .nav-links a:hover { color: var(--green); }
+
+  /* SECTIONS */
+  section {
+    position: relative;
+    z-index: 2;
+    min-height: 100vh;
+    padding: 6rem 2rem 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* HERO */
+  #home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 8rem;
+  }
+
+  .hero-label {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .hero-label::before { content: '> '; color: var(--green); }
+
+  .hero-name {
+    font-family: var(--font-mono);
+    font-size: clamp(3rem, 8vw, 7rem);
+    line-height: 1;
+    color: var(--green);
+    text-shadow: 0 0 40px rgba(0,255,65,0.3);
+    margin-bottom: 0.5rem;
+    animation: flicker 8s infinite;
+  }
+
+  @keyframes flicker {
+    0%, 95%, 100% { opacity: 1; }
+    96% { opacity: 0.8; }
+    97% { opacity: 1; }
+    98% { opacity: 0.6; }
+    99% { opacity: 1; }
+  }
+
+  .hero-title {
+    font-family: var(--font-main);
+    font-size: clamp(1rem, 3vw, 1.8rem);
+    font-weight: 300;
+    color: var(--text-dim);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+
+  .hero-typing {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    color: var(--text-dim);
+    margin-bottom: 3rem;
+    min-height: 1.5rem;
+  }
+
+  .hero-typing::after {
+    content: '|';
+    animation: blink 1s infinite;
+    color: var(--green);
+  }
+
+  @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+  .hero-stats {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stat-num {
+    font-family: var(--font-mono);
+    font-size: 2rem;
+    color: var(--green);
+    font-weight: 700;
+  }
+
+  .stat-label {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+
+  .hero-btns {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    padding: 0.8rem 2rem;
+    border: 1px solid var(--green);
+    background: transparent;
+    color: var(--green);
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn::before {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%;
+    width: 100%; height: 100%;
+    background: var(--green-glow);
+    transition: left 0.3s;
+  }
+
+  .btn:hover::before { left: 0; }
+  .btn:hover { box-shadow: 0 0 20px rgba(0,255,65,0.3); }
+
+  .btn-filled {
+    background: var(--green);
+    color: #000;
+    font-weight: 700;
+  }
+
+  .btn-filled:hover { background: var(--green-dim); }
+
+  /* SECTION HEADERS */
+  .section-header {
+    margin-bottom: 3rem;
+  }
+
+  .section-tag {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-tag::before { content: '// '; color: var(--green); }
+
+  .section-title {
+    font-family: var(--font-mono);
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    color: var(--green);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1rem;
+  }
+
+  /* ABOUT */
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  .about-text p {
+    font-family: var(--font-main);
+    font-size: 1.1rem;
+    color: var(--text-dim);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+  }
+
+  .about-text p strong {
+    color: var(--green);
+    font-weight: 600;
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .skill-item {
+    border: 1px solid var(--border);
+    padding: 0.8rem 1rem;
+    background: var(--bg2);
+  }
+
+  .skill-name {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-bottom: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .skill-bar {
+    height: 2px;
+    background: var(--text-muted);
+    position: relative;
+  }
+
+  .skill-fill {
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    background: var(--green);
+    box-shadow: 0 0 8px rgba(0,255,65,0.5);
+  }
+
+  /* APPS */
+  .apps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .app-card {
+    border: 1px solid var(--border);
+    background: var(--bg2);
+    padding: 1.5rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .app-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px; height: 100%;
+    background: var(--green);
+    transform: scaleY(0);
+    transition: transform 0.3s;
+    transform-origin: bottom;
+  }
+
+  .app-card:hover::before { transform: scaleY(1); }
+  .app-card:hover { border-color: var(--border-bright); background: var(--bg3); }
+
+  .app-num {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .app-name {
+    font-family: var(--font-mono);
+    font-size: 1.2rem;
+    color: var(--green);
+    margin-bottom: 0.5rem;
+  }
+
+  .app-desc {
+    font-family: var(--font-main);
+    font-size: 1rem;
+    color: var(--text-dim);
+    font-weight: 300;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+
+  .app-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .tag {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    padding: 0.2rem 0.6rem;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .app-links {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .app-link {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--green);
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: opacity 0.2s;
+  }
+
+  .app-link:hover { opacity: 0.7; }
+  .app-link::before { content: '→ '; }
+
+  /* BLOG */
+  .blog-grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .blog-card {
+    border: 1px solid var(--border);
+    background: var(--bg2);
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 1.5rem;
+    align-items: center;
+    transition: all 0.2s;
+    text-decoration: none;
+  }
+
+  .blog-card:hover {
+    border-color: var(--border-bright);
+    background: var(--bg3);
+  }
+
+  .blog-date {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    letter-spacing: 0.1em;
+  }
+
+  .blog-title {
+    font-family: var(--font-main);
+    font-size: 1.2rem;
+    color: var(--green);
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+
+  .blog-excerpt {
+    font-family: var(--font-main);
+    font-size: 0.95rem;
+    color: var(--text-dim);
+    font-weight: 300;
+  }
+
+  .blog-arrow {
+    font-family: var(--font-mono);
+    color: var(--text-muted);
+    font-size: 1.2rem;
+    transition: color 0.2s, transform 0.2s;
+  }
+
+  .blog-card:hover .blog-arrow {
+    color: var(--green);
+    transform: translateX(4px);
+  }
+
+  /* CONTACT */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .contact-info p {
+    font-family: var(--font-main);
+    font-size: 1.1rem;
+    color: var(--text-dim);
+    line-height: 1.8;
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .contact-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .contact-link:hover { color: var(--green); }
+
+  .contact-link-label {
+    color: var(--text-muted);
+    min-width: 80px;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .form-label {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+
+  .form-input, .form-textarea {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    padding: 0.8rem;
+    outline: none;
+    transition: border-color 0.2s;
+    resize: none;
+  }
+
+  .form-input:focus, .form-textarea:focus {
+    border-color: var(--green);
+    box-shadow: 0 0 10px rgba(0,255,65,0.1);
+  }
+
+  .form-input::placeholder, .form-textarea::placeholder {
+    color: var(--text-muted);
+  }
+
+  /* FOOTER */
+  footer {
+    position: relative;
+    z-index: 2;
+    border-top: 1px solid var(--border);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .footer-text {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+
+  .footer-text span { color: var(--green); }
+
+  /* DIVIDER */
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 4rem 0;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .nav-links { display: none; }
+    .hero-stats { gap: 1.5rem; }
+    .apps-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<canvas id="matrix-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <a href="#home" class="nav-logo">&gt; <span>creepy</span>lewis<span>.me</span></a>
+  <ul class="nav-links">
+    <li><a href="#home">init</a></li>
+    <li><a href="#about">about</a></li>
+    <li><a href="#apps">apps</a></li>
+    <li><a href="#blog">log</a></li>
+    <li><a href="#contact">connect</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <p class="hero-label">system online — all systems operational</p>
+  <h1 class="hero-name">CreepyLewis</h1>
+  <p class="hero-title">Full Stack Developer · AI · Automation · Systems</p>
+  <p class="hero-typing" id="typing-text"></p>
+  <div class="hero-stats">
+    <div class="stat">
+      <span class="stat-num">335+</span>
+      <span class="stat-label">GitHub Stars</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">68</span>
+      <span class="stat-label">Day Streak</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">5+</span>
+      <span class="stat-label">Live Apps</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">1.6k</span>
+      <span class="stat-label">Contributions</span>
+    </div>
+  </div>
+  <div class="hero-btns">
+    <a href="#apps" class="btn btn-filled">View My Apps</a>
+    <a href="#contact" class="btn">Connect</a>
+    <a href="https://github.com/CreepyLewis" target="_blank" class="btn">GitHub</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-header">
+    <p class="section-tag">about the developer</p>
+    <h2 class="section-title">Who Am I</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>I'm <strong>Lewis Kithome</strong>, a Full Stack Developer based in <strong>Gachie, Kiambu, Kenya</strong>. I build data-driven applications, automation tools, and AI-powered systems using Python and modern web technologies.</p>
+      <p>Currently studying at <strong>CUK</strong> and building real-world solutions that solve everyday problems — from finding houses to data visualization and AI analysis tools.</p>
+      <p>I code <strong>every single day</strong> — 68 day streak and counting. I believe consistency beats talent when talent doesn't show up.</p>
+      <div class="hero-btns" style="margin-top:1.5rem;">
+        <a href="https://github.com/CreepyLewis" target="_blank" class="btn">GitHub Profile</a>
+        <a href="https://linkedin.com/in/lewis-kithome" target="_blank" class="btn">LinkedIn</a>
+      </div>
+    </div>
+    <div>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <div class="skill-name"><span>Python</span><span>95%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>Streamlit</span><span>90%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>Pandas</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>Machine Learning</span><span>75%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>HTML/CSS</span><span>80%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>JavaScript</span><span>65%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>GitHub</span><span>92%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:92%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>Data Viz</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- APPS -->
+<section id="apps">
+  <div class="section-header">
+    <p class="section-tag">deployed systems</p>
+    <h2 class="section-title">Live Applications</h2>
+  </div>
+  <div class="apps-grid">
+    <div class="app-card">
+      <p class="app-num">01 // HOUSING</p>
+      <h3 class="app-name">House Vacancy Finder</h3>
+      <p class="app-desc">Helps users find available rental houses quickly and easily across Kenya. Built for real people solving a real problem.</p>
+      <div class="app-tags">
+        <span class="tag">Python</span>
+        <span class="tag">Streamlit</span>
+        <span class="tag">Pandas</span>
+      </div>
+      <div class="app-links">
+        <a href="https://house-vacancy-finder.streamlit.app/" target="_blank" class="app-link">Live App</a>
+      </div>
+    </div>
+    <div class="app-card">
+      <p class="app-num">02 // SOCIAL</p>
+      <h3 class="app-name">LinkUp Dating App</h3>
+      <p class="app-desc">A modern matchmaking platform connecting people based on interests and compatibility algorithms.</p>
+      <div class="app-tags">
+        <span class="tag">Python</span>
+        <span class="tag">Streamlit</span>
+        <span class="tag">AI</span>
+      </div>
+      <div class="app-links">
+        <a href="https://linkup-dating-app.streamlit.app/" target="_blank" class="app-link">Live App</a>
+        <a href="https://github.com/CreepyLewis/linkup-dating-app" target="_blank" class="app-link">GitHub</a>
+      </div>
+    </div>
+    <div class="app-card">
+      <p class="app-num">03 // ENTERTAINMENT</p>
+      <h3 class="app-name">Movie Recommender</h3>
+      <p class="app-desc">Recommends films based on user preferences using TMDB API and collaborative filtering algorithms.</p>
+      <div class="app-tags">
+        <span class="tag">Python</span>
+        <span class="tag">TMDB API</span>
+        <span class="tag">Pandas</span>
+      </div>
+      <div class="app-links">
+        <a href="https://creepy-movie-recommender.streamlit.app/" target="_blank" class="app-link">Live App</a>
+      </div>
+    </div>
+    <div class="app-card">
+      <p class="app-num">04 // DATA</p>
+      <h3 class="app-name">Kenya Data Viz Hub</h3>
+      <p class="app-desc">Visualizes Kenyan datasets with interactive charts, maps, and insights. Making local data accessible.</p>
+      <div class="app-tags">
+        <span class="tag">Python</span>
+        <span class="tag">Plotly</span>
+        <span class="tag">Streamlit</span>
+      </div>
+      <div class="app-links">
+        <a href="https://kenya-data-visualization-app.streamlit.app/" target="_blank" class="app-link">Live App</a>
+        <a href="https://github.com/CreepyLewis/kenya-data-visualization-hub" target="_blank" class="app-link">GitHub</a>
+      </div>
+    </div>
+    <div class="app-card">
+      <p class="app-num">05 // AI</p>
+      <h3 class="app-name">AI GitHub Analyzer</h3>
+      <p class="app-desc">Analyzes GitHub projects with AI-powered insights, recommendations, and code quality metrics.</p>
+      <div class="app-tags">
+        <span class="tag">Python</span>
+        <span class="tag">AI</span>
+        <span class="tag">GitHub API</span>
+      </div>
+      <div class="app-links">
+        <a href="https://ai-app-project-analyzer.streamlit.app/" target="_blank" class="app-link">Live App</a>
+        <a href="https://github.com/CreepyLewis/ai-github-project-analyzer" target="_blank" class="app-link">GitHub</a>
+      </div>
+    </div>
+    <div class="app-card" style="border-style:dashed; display:flex; align-items:center; justify-content:center; min-height:200px;">
+      <div style="text-align:center;">
+        <p class="app-num" style="text-align:center; margin-bottom:0.5rem;">06 // LOADING</p>
+        <p style="font-family:var(--font-mono); color:var(--text-muted); font-size:0.85rem;">Next project incoming...</p>
+        <p style="font-family:var(--font-mono); color:var(--text-muted); font-size:0.75rem; margin-top:0.5rem;">[ building in progress ]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section id="blog">
+  <div class="section-header">
+    <p class="section-tag">developer log</p>
+    <h2 class="section-title">Latest Posts</h2>
+  </div>
+  <div class="blog-grid">
+    <a href="https://github.com/CreepyLewis/github-achievement-lab" target="_blank" class="blog-card">
+      <span class="blog-date">APR 2026</span>
+      <div>
+        <p class="blog-title">How to Earn Every GitHub Achievement</p>
+        <p class="blog-excerpt">A complete guide to earning all GitHub achievements from Quickdraw to Galaxy Brain — with tips from someone who actually did it.</p>
+      </div>
+      <span class="blog-arrow">→</span>
+    </a>
+    <a href="https://github.com/CreepyLewis/daily-log" target="_blank" class="blog-card">
+      <span class="blog-date">APR 2026</span>
+      <div>
+        <p class="blog-title">TIL: Making a Repo Private Kills All Stars</p>
+        <p class="blog-excerpt">Today I learned that making a public repo private permanently deletes all stars — they never come back even if you make it public again.</p>
+      </div>
+      <span class="blog-arrow">→</span>
+    </a>
+    <a href="https://github.com/CreepyLewis" target="_blank" class="blog-card">
+      <span class="blog-date">2026</span>
+      <div>
+        <p class="blog-title">Building a 66-Day GitHub Streak as a Student</p>
+        <p class="blog-excerpt">How I maintained a daily commit streak while studying, building apps, and learning new technologies every single day.</p>
+      </div>
+      <span class="blog-arrow">→</span>
+    </a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-header">
+    <p class="section-tag">establish connection</p>
+    <h2 class="section-title">Get In Touch</h2>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <p>Available for freelance projects, collaborations, and full-time opportunities. Based in Kenya, working globally.</p>
+      <div class="contact-links">
+        <a href="mailto:lewiskithome6@gmail.com" class="contact-link">
+          <span class="contact-link-label">EMAIL</span>
+          lewiskithome6@gmail.com
+        </a>
+        <a href="https://github.com/CreepyLewis" target="_blank" class="contact-link">
+          <span class="contact-link-label">GITHUB</span>
+          github.com/CreepyLewis
+        </a>
+        <a href="https://linkedin.com/in/lewis-kithome" target="_blank" class="contact-link">
+          <span class="contact-link-label">LINKEDIN</span>
+          in/lewis-kithome
+        </a>
+        <a href="https://x.com/CreepyLewis" target="_blank" class="contact-link">
+          <span class="contact-link-label">TWITTER/X</span>
+          @CreepyLewis
+        </a>
+        <a href="https://instagram.com/lewis.karl7" target="_blank" class="contact-link">
+          <span class="contact-link-label">INSTAGRAM</span>
+          @lewis.karl7
+        </a>
+        <a href="https://youtube.com/@LEWISKITHOME-I9y" target="_blank" class="contact-link">
+          <span class="contact-link-label">YOUTUBE</span>
+          @LEWISKITHOME-l9y
+        </a>
+      </div>
+    </div>
+    <form class="contact-form" onsubmit="handleSubmit(event)">
+      <div class="form-group">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-input" placeholder="Your name" id="name">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-input" placeholder="your@email.com" id="email">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Message</label>
+        <textarea class="form-textarea" rows="5" placeholder="What's on your mind?" id="message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-filled">Transmit Message</button>
+      <p id="form-status" style="font-family:var(--font-mono);font-size:0.8rem;color:var(--text-dim);display:none;"></p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p class="footer-text">&copy; 2026 <span>CreepyLewis</span> — All systems operational</p>
+  <p class="footer-text">Built with <span>Python</span> · Deployed on <span>lewiskithome.me</span></p>
+</footer>
+
+<script>
+const canvas = document.getElementById('matrix-canvas');
+const ctx = canvas.getContext('2d');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+const cols = Math.floor(canvas.width / 20);
+const drops = Array(cols).fill(1);
+function drawMatrix() {
+  ctx.fillStyle = 'rgba(0,0,0,0.05)';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = '#00ff41';
+  ctx.font = '15px Share Tech Mono';
+  drops.forEach((y, i) => {
+    const char = String.fromCharCode(0x30A0 + Math.random() * 96);
+    ctx.fillText(char, i * 20, y * 20);
+    if (y * 20 > canvas.height && Math.random() > 0.975) drops[i] = 0;
+    drops[i]++;
+  });
+}
+setInterval(drawMatrix, 50);
+window.addEventListener('resize', () => {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+});
+
+const phrases = [
+  'Building solutions, one commit at a time...',
+  'Python · Streamlit · AI · Data Science',
+  'Available for freelance & collaboration',
+  '68 day streak and counting...',
+  'main character. low budget. high output.'
+];
+let pi = 0, ci = 0, deleting = false;
+const el = document.getElementById('typing-text');
+function type() {
+  const phrase = phrases[pi];
+  if (!deleting) {
+    el.textContent = phrase.substring(0, ci + 1);
+    ci++;
+    if (ci === phrase.length) { deleting = true; setTimeout(type, 2000); return; }
+  } else {
+    el.textContent = phrase.substring(0, ci - 1);
+    ci--;
+    if (ci === 0) { deleting = false; pi = (pi + 1) % phrases.length; }
+  }
+  setTimeout(type, deleting ? 40 : 80);
+}
+type();
+
+function handleSubmit(e) {
+  e.preventDefault();
+  const status = document.getElementById('form-status');
+  status.style.display = 'block';
+  status.textContent = '> Message transmitted successfully. Will respond shortly.';
+  document.getElementById('name').value = '';
+  document.getElementById('email').value = '';
+  document.getElementById('message').value = '';
+}
+</script>
+</body>
+</html>
