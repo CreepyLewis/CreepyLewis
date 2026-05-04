@@ -2,7 +2,7 @@
 
 <svg width="100%" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
   <rect width="800" height="200" fill="black"/>
-  
+
   <!-- Glowing Text -->
   <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
         fill="#00ff41" font-size="48" font-family="monospace">
